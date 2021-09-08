@@ -1,16 +1,20 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [sub_resource type="CubeMesh" id=1]
 
+[sub_resource type="Skin" id=2]
+
 [node name="Scene" type="Spatial"]
 
-[node name="CameraNode" type="Spatial" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 10 )
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, 10 )
 
-[node name="Camera" type="Camera" parent="CameraNode"]
-
-[node name="CubeNode" type="Spatial" parent="."]
-
-[node name="Cube" type="MeshInstance" parent="CubeNode"]
+[node name="Cube" type="MeshInstance" parent="."]
 mesh = SubResource( 1 )
+skin = SubResource( 2 )
 material/0 = null
+
+[node name="OmniLight" type="OmniLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 10, 10 )
+light_color = Color( 0.87451, 0.964706, 0.0588235, 1 )
+omni_range = 20.0
