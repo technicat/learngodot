@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://Scripts/Rotate.gd" type="Script" id=1]
-[ext_resource path="res://Scripts/LookAt.gd" type="Script" id=2]
+[ext_resource path="res://Scripts/rotate_y.gd" type="Script" id=1]
+[ext_resource path="res://Scripts/look_at.gd" type="Script" id=2]
 
 [sub_resource type="CubeMesh" id=1]
 
