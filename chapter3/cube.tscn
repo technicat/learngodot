@@ -18,3 +18,5 @@ material/0 = null
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 10, 10 )
 light_color = Color( 0.87451, 0.964706, 0.0588235, 1 )
 omni_range = 20.0
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
