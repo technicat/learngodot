@@ -10,6 +10,8 @@
 
 ### Anatomy of a Camera
 
+<img src="images/camera.png">
+
 ### The Transform
 
 ### Clear Flags
