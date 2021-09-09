@@ -110,6 +110,8 @@
 
 ## Textures
 
+https://docs.godotengine.org/en/stable/tutorials/3d/spatial_material.html
+
 <img src="images/textureimport.png">
 
 <img src="images/materialtexture.png">
