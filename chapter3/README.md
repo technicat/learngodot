@@ -62,6 +62,8 @@
 
 ### Anatomy of a Light
 
+<img src="images/light.png">
+
 ### Type
 
 ### Range
