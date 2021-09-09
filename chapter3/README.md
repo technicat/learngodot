@@ -106,7 +106,9 @@ https://docs.godotengine.org/en/stable/tutorials/assetlib/what_is_assetlib.html
 
 ## Explore Further
 
-### Godo Manual
+### Godo Docs
+
+https://docs.godotengine.org/en/stable/index.html
 
 ### Godot Reference
 
