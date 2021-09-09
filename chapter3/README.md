@@ -66,6 +66,8 @@
 
 ## Add a Light
 
+https://docs.godotengine.org/en/stable/tutorials/3d/lights_and_shadows.html#
+
 <img src="images/createlight.png">
 
 ### Anatomy of a Light
