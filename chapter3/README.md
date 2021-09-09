@@ -4,6 +4,8 @@
 
 ## The Main Camera
 
+<img src="images/createcamera.png">
+
 ### Multiple Cameras
 
 ### Anatomy of a Camera
@@ -36,6 +38,8 @@
 
 ### Make the Cube
 
+<img src="images/createcube.png">
+
 ### Frame the Cube
 
 ### Move the Cube
@@ -59,6 +63,8 @@
 ### Attach the Script
 
 ## Add a Light
+
+<img src="images/createlight.png">
 
 ### Anatomy of a Light
 
