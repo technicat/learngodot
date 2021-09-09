@@ -2,39 +2,13 @@
 
 ## Create a New Project
 
-## The Main Camera
+## Add a Camera
 
 <img src="images/createcamera.png">
-
-### Multiple Cameras
 
 ### Anatomy of a Camera
 
 <img src="images/camera.png">
-
-### The Transform
-
-### Clear Flags
-
-### Culling Mask
-
-### Projection
-
-### Viewport
-
-### Depth
-
-### Rendering Path
-
-### Target Texture
-
-### HDR
-
-### Flare
-
-### GUI
-
-### Audio
 
 ## Add a Cube to the Scene
 
