@@ -100,6 +100,10 @@
 
 ## Textures
 
+<img src="images/textureimport.png">
+
+<img src="images/materialtexture.png">
+
 ### Browse the Asset Library
 
 https://docs.godotengine.org/en/stable/tutorials/assetlib/what_is_assetlib.html
