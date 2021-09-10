@@ -16,9 +16,7 @@ A scene is typically implemented as a hierarchy, or tree, of nodes. Godot scenes
 
 https://docs.godotengine.org/en/stable/tutorials/3d/introduction_to_3d.html#spatial-node
 
-<img src="images/createspatial.png">
-
-<img src="images/createspatial.png">
+<img src="images/createspatial.png" height="300">
 
 https://docs.godotengine.org/en/stable/tutorials/3d/using_transforms.html
 
@@ -26,23 +24,23 @@ https://docs.godotengine.org/en/stable/tutorials/3d/using_transforms.html
 
 If you hit Play now, you won't see anything because our scene doesn't have a Camera. In a 3D scene, the camera represents the view point, so it could also be considered the simulated eye (or eyes, if we're doing stereo as in virtual reality), but you can also think of it as a movie camera, and a lot of terminology we use for CG cameras is similar, such as field of view, or pan, dolly, etc. for how we want to move the camera.
 
-<img src="images/createcamera.png">
+<img src="images/createcamera.png" height="300">
 
 ### Anatomy of a Camera
 
-<img src="images/camera.png">
+<img src="images/camera.png" height="300">
 
 
 
 ### Create a Spatial Node
 
-<img src="images/camera.png">
+<img src="images/camera.png" height="300">
 
 ## Add a Cube to the Scene
 
 ### Make the Cube
 
-<img src="images/createmesh.png">
+<img src="images/createmesh.png" height="300">
 
 ### Frame the Cube
 
@@ -56,7 +54,7 @@ If you hit Play now, you won't see anything because our scene doesn't have a Cam
 
 ### Attach the Script
 
-<img src="images/attachscript.png">
+<img src="images/attachscript.png" height="300">
 
 https://docs.godotengine.org/en/stable/getting_started/workflow/project_setup/project_organization.html#style-guide
 
@@ -64,11 +62,11 @@ https://docs.godotengine.org/en/stable/getting_started/workflow/project_setup/pr
 
 https://docs.godotengine.org/en/stable/tutorials/3d/lights_and_shadows.html#
 
-<img src="images/createlight.png">
+<img src="images/createlight.png" height="300">
 
 ### Anatomy of a Light
 
-<img src="images/light.png">
+<img src="images/light.png" height="300">
 
 ### Type
 
@@ -110,9 +108,9 @@ https://docs.godotengine.org/en/stable/tutorials/3d/lights_and_shadows.html#
 
 https://docs.godotengine.org/en/stable/tutorials/3d/spatial_material.html
 
-<img src="images/textureimport.png">
+<img src="images/textureimport.png" height="300">
 
-<img src="images/materialtexture.png">
+<img src="images/materialtexture.png" height="300">
 
 ### Browse the Asset Library
 
