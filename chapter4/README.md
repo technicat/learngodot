@@ -45,6 +45,12 @@ In the new Cube scene, make the Cube node the scene root and delete all the othe
 
 ### Instance the Scene
 
+<img src="images/instancescene.png">
+
+### Vary the Parameters
+
+<img src="images/cube3.png">
+
 <img src="images/playcubes.png">
 
 
