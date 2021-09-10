@@ -6,6 +6,8 @@ https://docs.godotengine.org/en/stable/tutorials/3d/introduction_to_3d.html
 
 ## Create a Spatial Node
 
+https://docs.godotengine.org/en/stable/tutorials/3d/introduction_to_3d.html#spatial-node
+
 <img src="images/createspatial.png">
 
 ### Anatomy of a Spatial Node
