@@ -11,6 +11,8 @@ https://docs.godotengine.org/en/stable/getting_started/workflow/project_setup/pr
 
 ## Script the Cube
 
+https://docs.godotengine.org/en/stable/classes/class_spatial.html?highlight=rotate_y
+
 ```
 extends Spatial
 
