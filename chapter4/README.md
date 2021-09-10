@@ -11,6 +11,10 @@ https://docs.godotengine.org/en/stable/getting_started/workflow/project_setup/pr
 
 ## Scenes within Scenes
 
+Save As to make a copy of the scene. Rename the new scene Cube.tscn.
+
+In the new Cube scene, make the Cube node the scene root and delete all the other nodes.
+
 <img src="images/makeroot.png" height="300">
 <img src="images/deletenode.png" height="300">
 
