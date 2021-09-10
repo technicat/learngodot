@@ -4,9 +4,11 @@
 
 ## Create a Spatial Node
 
-<img src="images/spatial.png">
+<img src="images/createspatial.png">
 
-### Transforms
+### Anatomy of a Spatial Node
+
+<img src="images/createspatial.png">
 
 https://docs.godotengine.org/en/stable/tutorials/3d/using_transforms.html
 
