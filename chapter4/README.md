@@ -9,6 +9,20 @@ https://docs.godotengine.org/en/stable/getting_started/workflow/project_setup/pr
 <img src="images/newfolder.png" height="300">
 <img src="images/scriptsfolder.png" height="300">
 
+## Script the Cube
+
+```
+extends Spatial
+
+export var speed = 1.0;
+
+func _ready():
+	pass # Replace with function body.
+
+func _process(delta):
+	rotate_y(delta*speed);
+```
+
 ## Scenes within Scenes
 
 ### Copy the Scene
