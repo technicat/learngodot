@@ -11,6 +11,9 @@ https://docs.godotengine.org/en/stable/getting_started/workflow/project_setup/pr
 
 ## Scenes within Scenes
 
+<img src="images/makeroot.png" height="300">
+<img src="images/deletenode.png" height="300">
+
 <img src="images/playcubes.png">
 
 
