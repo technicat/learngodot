@@ -11,15 +11,14 @@ https://docs.godotengine.org/en/stable/getting_started/workflow/project_setup/pr
 
 ## Script the Cube
 
-https://docs.godotengine.org/en/stable/classes/class_spatial.html?highlight=rotate_y
+In the previous chapter, we attached a new script to the Camera's parent [Spatial](https://docs.godotengine.org/en/stable/classes/class_spatial.html) node and then placed a call to Spatial.look_at.
 
-```
+Similarly, here we'll attach a new script to the Cube's parent Spatial node and add a call to Spatial.rotate_y to rotate the Cube around it's y-axis (or more precisely, the Spatial node's y-axis).
+
+```gdscript
 extends Spatial
 
 export var speed = 1.0;
-
-func _ready():
-	pass # Replace with function body.
 
 func _process(delta):
 	rotate_y(delta*speed);
