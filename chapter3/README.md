@@ -79,26 +79,6 @@ https://docs.godotengine.org/en/stable/tutorials/3d/lights_and_shadows.html#
 
 <img src="images/light.png" height="300">
 
-### Type
-
-### Range
-
-### Color
-
-### Intensity
-
-### Shadow Type
-
-### Cookie
-
-### Culling Mask
-
-### Flare
-
-### Halo
-
-### Render Mode
-
 ### Lightmapping
 
 ## Adjust the Light
@@ -126,16 +106,5 @@ https://docs.godotengine.org/en/stable/tutorials/3d/spatial_material.html
 ### Browse the Asset Library
 
 https://docs.godotengine.org/en/stable/tutorials/assetlib/what_is_assetlib.html
-
-## Explore Further
-
-### Godo Docs
-
-https://docs.godotengine.org/en/stable/index.html
-
-### Godot Reference
-
-### Computer Graphics
-
 
 
