@@ -10,4 +10,8 @@ https://docs.godotengine.org/en/stable/getting_started/workflow/project_setup/pr
 
 <img src="images/scriptsfolder.png">
 
+## Scenes within Scenes
+
+<img src="images/playcubes.png">
+
 
