@@ -8,13 +8,15 @@ https://docs.godotengine.org/en/stable/getting_started/step_by_step/scenes_and_n
 
 ## Create a Scene
 
-Just about all game engines, or at least 3D game engines, have the concept of a scene, where a scene is equivalent to what game players see as levels in a game. A scene is typically implemented as a hierarchy, or tree, of nodes. Godot scenes are used in the same way (there is always one current scene in a game, and there has to be a designated start scene), but Godo scenes are more general - any 3D tree structure or branch of that structure can be saved out as a scene, and conversely, a scene can include other scenes as branches. In other words, scenes are reusable branches.
+In just about all game engines, or at least 3D game engines, a game is composed of one or more levels or scenes (CryEngine and Unreal use the term level, Unity and Godo use scene). The term level is probably more recognizable to game players, but I think scene is a good analogy with movies. Maybe set is an even better analogy, as a scene is the arrangement of game assets (sometimes called props, to take the movie analogy further).
+
+### Anatomy of a Scene
+
+A scene is typically implemented as a hierarchy, or tree, of nodes. Godot scenes are used in the same way (there is always one current scene in a game, and there as to be a designated start scene), but Godo scenes are more general - any 3D tree structure or branch of that structure can be saved out as a scene, and conversely, a scene can include other scenes as branches. In other words, scenes are reusable branches.
 
 https://docs.godotengine.org/en/stable/tutorials/3d/introduction_to_3d.html#spatial-node
 
 <img src="images/createspatial.png">
-
-### Anatomy of a Spatial Node
 
 <img src="images/createspatial.png">
 
