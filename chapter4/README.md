@@ -6,9 +6,8 @@ In this chapter, we'll add another script, so it's a good time to start organizi
 
 https://docs.godotengine.org/en/stable/getting_started/workflow/project_setup/project_organization.html#organization
 
-<img src="images/newfolder.png" height="200">
-
-<img src="images/scriptsfolder.png" height="200">
+<img src="images/newfolder.png" height="300">
+<img src="images/scriptsfolder.png" height="300">
 
 ## Scenes within Scenes
 
