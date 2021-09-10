@@ -2,4 +2,6 @@
 
 ## Organize Assets
 
+<img src="images/newfolder.png">
+
 
