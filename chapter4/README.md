@@ -6,6 +6,6 @@ In this chapter, we'll add another script, so it's a good time to start organizi
 
 <img src="images/newfolder.png">
 
-<img src="images/scripsfolder.png">
+<img src="images/scriptsfolder.png">
 
 
