@@ -14,7 +14,7 @@
 
 ### Make the Cube
 
-<img src="images/createcube.png">
+<img src="images/createmesh.png">
 
 ### Frame the Cube
 
