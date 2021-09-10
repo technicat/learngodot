@@ -58,6 +58,8 @@ If you hit Play now, you won't see anything because our scene doesn't have a Cam
 
 <img src="images/attachscript.png">
 
+https://docs.godotengine.org/en/stable/getting_started/workflow/project_setup/project_organization.html#style-guide
+
 ## Add a Light
 
 https://docs.godotengine.org/en/stable/tutorials/3d/lights_and_shadows.html#
