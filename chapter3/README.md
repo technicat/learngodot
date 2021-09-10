@@ -56,7 +56,7 @@ If you hit Play now, you won't see anything because our scene doesn't have a Cam
 
 <img src="images/attachscript.png" height="300">
 
-https://docs.godotengine.org/en/stable/getting_started/workflow/project_setup/project_organization.html#style-guide
+Leave two empty lines before the _ready function, following https://docs.godotengine.org/en/stable/getting_started/workflow/project_setup/project_organization.html#style-guide
 
 ```gdscript
 extends Spatial
