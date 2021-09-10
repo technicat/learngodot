@@ -56,7 +56,10 @@ If you hit Play now, you won't see anything because our scene doesn't have a Cam
 
 <img src="images/attachscript.png" height="300">
 
-Leave two empty lines before the _ready function, following https://docs.godotengine.org/en/stable/getting_started/workflow/project_setup/project_organization.html#style-guide
+- name the script look_at (snake_case, following the Godot naming conventions)
+- replace the *pass* line in the *_ready* function
+
+Leave two empty lines before the *_ready* function, following [the Godot coding style conventions](https://docs.godotengine.org/en/stable/getting_started/workflow/project_setup/project_organization.html#style-guide).
 
 ```gdscript
 extends Spatial
