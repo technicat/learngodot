@@ -2,6 +2,14 @@
 
 ## Create a New Project
 
+## Create a Spatial Node
+
+<img src="images/spatial.png">
+
+### Transforms
+
+https://docs.godotengine.org/en/stable/tutorials/3d/using_transforms.html
+
 ## Add a Camera
 
 <img src="images/createcamera.png">
@@ -10,11 +18,11 @@
 
 <img src="images/camera.png">
 
-## Transforms
 
-https://docs.godotengine.org/en/stable/tutorials/3d/using_transforms.html
 
 ### Create a Spatial Node
+
+<img src="images/camera.png">
 
 ## Add a Cube to the Scene
 
