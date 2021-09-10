@@ -6,7 +6,9 @@ https://docs.godotengine.org/en/stable/tutorials/3d/introduction_to_3d.html
 
 https://docs.godotengine.org/en/stable/getting_started/step_by_step/scenes_and_nodes.html
 
-## Create a Spatial Node
+## Create a Scene
+
+Just about all game engines, or at least 3D game engines, have the concept of a scene, where a scene is equivalent to what game players see as levels in a game. A scene is typically implemented as a hierarchy, or tree, of nodes. Godot scenes are used in the same way (there is always one current scene in a game, and there has to be a designated start scene), but Godo scenes are more general - any 3D tree structure or branch of that structure can be saved out as a scene, and conversely, a scene can include other scenes as branches. In other words, scenes are reusable branches.
 
 https://docs.godotengine.org/en/stable/tutorials/3d/introduction_to_3d.html#spatial-node
 
