@@ -50,21 +50,13 @@ If you hit Play now, you won't see anything because our scene doesn't have a Cam
 
 ## Anatomy of a Cube
 
-### Transform
-
-### MeshFilter
-
-### MeshRenderer
-
-### BoxCollider
-
 ### Align with View
 
 ## Camera Control
 
-### Import the Script
-
 ### Attach the Script
+
+<img src="images/attachscript.png">
 
 ## Add a Light
 
