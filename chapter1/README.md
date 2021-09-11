@@ -9,12 +9,18 @@ which also has instructions for downloading view package managers such as HomeBr
 
 ## Manage Godot
 
+https://godotengine.org/community
+
 ### Report Problems
 
 The Help menu in the Godot editor has a bug report option that sends you to the issue tracker on
 [Github](https://github.com/godotengine/godot/issues).
 
 <img src="images/reportbug.png" height="300">>
+
+### Request Features
+
+https://github.com/godotengine/godot-proposals
 
 
 
