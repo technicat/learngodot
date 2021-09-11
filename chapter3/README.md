@@ -57,6 +57,14 @@ There are a lot of possible nodes to add, but you can find the Camera node quick
 
 <img src="images/createcamera.png" height="400">
 
+Now you should see a Camera node under the scene root node.
+
+<img src="images/scenecamera.png" height="200">
+
+And when you hit Play, the default environment (blue skies!) is now rendere.
+
+<img src="images/playcamera.png" height="300">
+
 ### Anatomy of a Camera
 
 Select the Camera to see its properties in the Inspector
