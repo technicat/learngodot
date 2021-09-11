@@ -8,6 +8,8 @@ When you select New Project from the Godot launcher, you'll be prompted for the 
 
 <img src="images/newproject.png" height="400">
 
+## Create a Scene
+
 If you hit the Play button now, the editor will say you need to select a scene, first. In just about all game engines, or at least 3D game engines, a game is composed of one or more levels or scenes (CryEngine and Unreal use the term level, Unity and Godo use scene). The term level is probably more recognizable to game players, but I think scene is a good analogy with movies. Maybe set is an even better analogy, as a scene is the arrangement of game assets (sometimes called props, to take the movie analogy further).
 
 Godot is no exception -- a Godot project consists of one or more scenes, and each
@@ -15,13 +17,13 @@ scene is made up of a [hierarchy of nodes](https://docs.godotengine.org/en/stabl
 
 In computer graphics, such a hierarchy is called a scene graph, but more specifically it's a tree, i.e. there's a single starting root node and there are no circularities in the graph.
 
-## Create a Scene
-
 In Godot, the root node determines the type of scene, so the first thing that the editor asks you to do with an empty project is select the appropriate node/scene to start. If you select 3D Scene, the editor will create a Spatial node and display a default 3D environment.
 
-<img src="images/newscene.png" height="400">
-
 ### Anatomy of a Scene
+
+<img src="images/spatialscene.png" height="200">
+
+<img src="images/spatialinspector.png" height="400">
 
 A scene is typically implemented as a hierarchy, or tree, of nodes. Godot scenes are used in the same way (there is always one current scene in a game, and there as to be a designated start scene), but Godo scenes are more general - any 3D tree structure or branch of that structure can be saved out as a scene, and conversely, a scene can include other scenes as branches. In other words, scenes are reusable branches.
 
