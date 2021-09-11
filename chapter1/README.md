@@ -20,7 +20,9 @@ https://godotengine.org/download
 
 ### Report Problems
 
-<img src="images/reportbug.png">
+The Help menu in the Godot editor has a bug report option that sends you to the issue tracker on [Github](https://github.com/godotengine/godot/issues).
+
+<img src="images/reportbug.png" height="300">>
 
 ### Check for Updates
 
