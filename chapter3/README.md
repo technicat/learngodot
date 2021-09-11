@@ -37,11 +37,11 @@ In a 3D scene, the camera represents the view point, so it could also be conside
 
 To add a Camera to the scene, right-click/control-click on the root node and select Add Child.
 
-<img src="images/addchild.png" height="200">
+<img src="images/addchild.png" height="150">
 
 There are a lot of possible nodes to add, but you can find the Camera node quickly by typing Camera in the search field.
 
-<img src="images/createcamera.png" height="300">
+<img src="images/createcamera.png" height="400">
 
 ### Anatomy of a Camera
 
