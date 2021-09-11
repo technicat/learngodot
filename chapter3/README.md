@@ -1,16 +1,23 @@
 # Making a Scene
 
-## Create a New Project
-
-<img src="images/newproject.png" height="300">
-
-Select 3D Scene.
-
-<img src="images/newscene.png" height="300">
-
 https://docs.godotengine.org/en/stable/tutorials/3d/introduction_to_3d.html
 
-https://docs.godotengine.org/en/stable/getting_started/step_by_step/scenes_and_nodes.html
+## Create a New Project
+
+When you select New Project from the Godot launcher, you'll be prompted for the project location and then presented with the Godot editor.
+
+<img src="images/newproject.png" height="400">
+
+A Godot project consists of one or more scenes (some game engines, e.g. CryEngien and Unreal, use the term level, so they have level editors instead of scene editors, but it's all the same).
+Scenes (or levels) consist of a [hierarchy of nodes](https://docs.godotengine.org/en/stable/getting_started/step_by_step/scenes_and_nodes.html), each node representing a position/rotation/scale with respect to its parent node.
+
+In computer graphics, such a hierarchy is called a scene graph, but more specifically it's a tree, i.e. there's a single starting root node and there are no circularities in the graph.
+
+In Godot, the root node determines the type of scene, so the first thing that the editor asks you to do with an empty project is select the appropriate node/scene to start. So, select 3D Scene.
+
+<img src="images/newscene.png" height="400">
+
+
 
 ## Create a Scene
 
