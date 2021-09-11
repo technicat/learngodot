@@ -33,7 +33,11 @@ If you hit Play now, you won't see anything because our scene doesn't have a Cam
 
 In a 3D scene, the camera represents the view point, so it could also be considered the simulated eye (or eyes, if we're doing stereo as in virtual reality), but you can also think of it as a movie camera, and a lot of terminology we use for CG cameras is similar, such as field of view, or pan, dolly, etc. for how we want to move the camera.
 
-First, add a Camera node to the scene.
+To add a Camera to the scene, right-click/control-click on the root node and select Add Child.
+
+<img src="images/addnode.png" height="300">
+
+There are a lot of possible nodes to add, but you can find the Camera node quickly by typing Camera in the search field.
 
 <img src="images/createcamera.png" height="300">
 
