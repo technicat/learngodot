@@ -71,12 +71,6 @@ Select the Camera to see its properties in the Inspector
 
 <img src="images/camera.png" height="300">
 
-### Create a Spatial Node
-
-Although the Camera has a transform, we'll create a parent Spatial node for it, so we can script the Camera using functions defined in the Spatial class.
-
-<img src="images/createspatial.png" height="400">
-
 ## Add a Cube to the Scene
 
 ### Make the Cube
