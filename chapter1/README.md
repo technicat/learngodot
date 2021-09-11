@@ -5,7 +5,7 @@
 ### Install Godot
 
 Builds for macOS, Windows, and Linux are available on the [Godot download page](https://godotengine.org/download),
-which also has instructions for downloading via package managers ([HomeBrew](https://formulae.brew.sh/cask/godot#default) and MacPorts on macOS, Scoop on Windows),
+which also has instructions for downloading via package managers ([HomeBrew](https://formulae.brew.sh/cask/godot#default) and [MacPorts](https://ports.macports.org/port/godot/) on macOS, Scoop on Windows),
 and from game portals (itch.io and Steam).
 
 ## Get Help
