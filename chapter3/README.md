@@ -24,17 +24,19 @@ https://docs.godotengine.org/en/stable/tutorials/3d/using_transforms.html
 
 If you hit Play now, you won't see anything because our scene doesn't have a Camera. In a 3D scene, the camera represents the view point, so it could also be considered the simulated eye (or eyes, if we're doing stereo as in virtual reality), but you can also think of it as a movie camera, and a lot of terminology we use for CG cameras is similar, such as field of view, or pan, dolly, etc. for how we want to move the camera.
 
+First, add a Camera node to the scene.
+
 <img src="images/createcamera.png" height="300">
 
 ### Anatomy of a Camera
 
+Select the Camera to see its properties in the Inspector
+
 <img src="images/camera.png" height="300">
-
-
 
 ### Create a Spatial Node
 
-<img src="images/camera.png" height="300">
+Although the Camera has a transform, we'll create a parent Spatial node for it, so we can script the Camera using functions defined in the Spatial class.
 
 ## Add a Cube to the Scene
 
