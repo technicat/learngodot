@@ -6,7 +6,7 @@ https://docs.godotengine.org/en/stable/tutorials/3d/introduction_to_3d.html
 
 When you select New Project from the Godot launcher, you'll be prompted for the project location and then presented with the Godot editor, showing two files automatically created in the project directory: a default icon, and a default environment.
 
-<img src="images/newproject.png" height="400">
+<img src="images/newproject.png" height="500">
 
 ## Create a Scene
 
@@ -19,11 +19,11 @@ In computer graphics, such a hierarchy is called a scene graph, but more specifi
 
 In Godot, the root node determines the type of scene, so the first thing that the editor asks you to do with an empty project is select the appropriate node/scene to start. When you select 3D Scene, the editor will create a [Spatial node](https://docs.godotengine.org/en/stable/tutorials/3d/introduction_to_3d.html#spatial-node) as the root node.
 
-<img src="images/spatialscene.png" height="200">
+<img src="images/spatialscene.png" height="100">
 
 The key property of a Spatial node is its [transform](https://docs.godotengine.org/en/stable/tutorials/3d/using_transforms.html)
 
-<img src="images/spatialinspector.png" height="400">
+<img src="images/spatialinspector.png" height="500">
 
 ## Add a Camera
 
