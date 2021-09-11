@@ -5,19 +5,8 @@
 
 [node name="Scene" type="Spatial"]
 
-[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
-
-[node name="MainCamera" type="Spatial" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, 10 )
-script = ExtResource( 2 )
-
-[node name="Camera" type="Camera" parent="MainCamera"]
-
-[node name="PointLight" type="Spatial" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 10, 10 )
-
-[node name="OmniLight" type="OmniLight" parent="PointLight"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 10 )
+[node name="OmniLight" type="OmniLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 10, 20 )
 light_color = Color( 0.87451, 0.964706, 0.0588235, 1 )
 omni_range = 20.0
 
@@ -30,3 +19,7 @@ speed = 2.0
 [node name="Cube3" parent="Cube" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, 0 )
 speed = 3.0
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, 10 )
+script = ExtResource( 2 )
