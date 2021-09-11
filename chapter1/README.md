@@ -2,14 +2,10 @@
 
 ## Prerequesites
 
-### Download Godot
+### Install Godot
 
 Builds for macOS, Windows, and Linux are available on the [Godot download page](https://godotengine.org/download),
 which also has instructions for downloading view package managers such as HomeBrew and MacPorts.
-
-## Install Godot
-
-### Welcome to Godot!
 
 ## Manage Godot
 
