@@ -31,6 +31,8 @@ If you hit Play now, you won't see anything because our scene doesn't have a Cam
 
 ## Save the Scene
 
+<img src="images/savescene.png" height="400">
+
 ## Create a Camera
 
 In a 3D scene, the camera represents the view point, so it could also be considered the simulated eye (or eyes, if we're doing stereo as in virtual reality), but you can also think of it as a movie camera, and a lot of terminology we use for CG cameras is similar, such as field of view, or pan, dolly, etc. for how we want to move the camera.
