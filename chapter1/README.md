@@ -19,12 +19,12 @@ https://docs.godotengine.org/en/stable/
 
 ### Report Problems
 
-The Help menu in the Godot editor has a bug report option that sends you to the issue tracker on
-[Github](https://github.com/godotengine/godot/issues).
+The Help menu in the Godot editor has a bug report option that sends you to the Issues tracker for the
+[Godot Github repo](https://github.com/godotengine/godot/issues).
 
 ### Request Features
 
-https://github.com/godotengine/godot-proposals
+A separate [Github repo](https://github.com/godotengine/godot-proposals) is used for project proposals.
 
 
 
