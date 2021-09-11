@@ -2,6 +2,8 @@
 
 ## Create a New Project
 
+<img src="images/newproject.png">
+
 https://docs.godotengine.org/en/stable/tutorials/3d/introduction_to_3d.html
 
 https://docs.godotengine.org/en/stable/getting_started/step_by_step/scenes_and_nodes.html
