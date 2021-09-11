@@ -35,9 +35,15 @@ The [Godot style guide](https://docs.godotengine.org/en/stable/getting_started/w
 
 <img src="images/savedscene.png" height="200">
 
-If you hit Play now, you won't see anything because our scene doesn't have a Camera.
+If you hit Play now, you can select the saved scene as the scene to play.
+
+<img src="images/selectscene.png" height="300">
+
+But the game window doesn't display anything,
 
 <img src="images/playnocamera.png" height="400">
+
+This is because the scene doesn't have a Camera.
 
 ## Create a Camera
 
