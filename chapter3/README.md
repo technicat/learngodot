@@ -2,7 +2,7 @@
 
 https://docs.godotengine.org/en/stable/tutorials/3d/introduction_to_3d.html
 
-## Create a New Project
+## Create a Project
 
 When you select New Project from the Godot launcher, you'll be prompted for the project location and then presented with the Godot editor, showing two files automatically created in the project directory: a default icon, and a default environment.
 
