@@ -29,7 +29,7 @@ The key property of a Spatial node is its [transform](https://docs.godotengine.o
 
 If you hit Play now, you won't see anything because our scene doesn't have a Camera.
 
-<img src="images/playnocamera.png" height="300">
+<img src="images/playnocamera.png" height="400">
 
 In a 3D scene, the camera represents the view point, so it could also be considered the simulated eye (or eyes, if we're doing stereo as in virtual reality), but you can also think of it as a movie camera, and a lot of terminology we use for CG cameras is similar, such as field of view, or pan, dolly, etc. for how we want to move the camera.
 
@@ -47,7 +47,7 @@ Select the Camera to see its properties in the Inspector
 
 Although the Camera has a transform, we'll create a parent Spatial node for it, so we can script the Camera using functions defined in the Spatial class.
 
-<img src="images/createspatial.png" height="300">
+<img src="images/createspatial.png" height="400">
 
 ## Add a Cube to the Scene
 
