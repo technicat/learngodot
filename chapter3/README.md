@@ -4,18 +4,18 @@ https://docs.godotengine.org/en/stable/tutorials/3d/introduction_to_3d.html
 
 ## Create a New Project
 
-When you select New Project from the Godot launcher, you'll be prompted for the project location and then presented with the Godot editor.
+When you select New Project from the Godot launcher, you'll be prompted for the project location and then presented with the Godot editor, showing two files automatically created in the project directory: a default icon, and a default environment.
 
 <img src="images/newproject.png" height="400">
 
-## Create a Scene
-
-In just about all game engines, or at least 3D game engines, a game is composed of one or more levels or scenes (CryEngine and Unreal use the term level, Unity and Godo use scene). The term level is probably more recognizable to game players, but I think scene is a good analogy with movies. Maybe set is an even better analogy, as a scene is the arrangement of game assets (sometimes called props, to take the movie analogy further).
+If you hit the Play button now, the editor will say you need to select a scene, first. In just about all game engines, or at least 3D game engines, a game is composed of one or more levels or scenes (CryEngine and Unreal use the term level, Unity and Godo use scene). The term level is probably more recognizable to game players, but I think scene is a good analogy with movies. Maybe set is an even better analogy, as a scene is the arrangement of game assets (sometimes called props, to take the movie analogy further).
 
 Godot is no exception -- a Godot project consists of one or more scenes, and each
 scene is made up of a [hierarchy of nodes](https://docs.godotengine.org/en/stable/getting_started/step_by_step/scenes_and_nodes.html), each node representing a position/rotation/scale with respect to its parent node.
 
 In computer graphics, such a hierarchy is called a scene graph, but more specifically it's a tree, i.e. there's a single starting root node and there are no circularities in the graph.
+
+## Create a Scene
 
 In Godot, the root node determines the type of scene, so the first thing that the editor asks you to do with an empty project is select the appropriate node/scene to start. If you select 3D Scene, the editor will create a Spatial node and display a default 3D environment.
 
