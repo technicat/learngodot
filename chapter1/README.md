@@ -20,6 +20,8 @@ https://godotengine.org/download
 
 ### Report Problems
 
+<img src="images/reportbug.png">
+
 ### Check for Updates
 
 ## Explore Further
