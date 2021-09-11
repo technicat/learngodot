@@ -31,7 +31,11 @@ If you hit the Play button now, the editor will still say you first need to sele
 
 <img src="images/savescene.png" height="400">
 
+The [Godot style guide](https://docs.godotengine.org/en/stable/getting_started/workflow/project_setup/project_organization.html#style-guide) recommends snake_case for filenames.
 
+After saving, you should see the new file in the FileSystem view.
+
+<img src="images/savedscene.png" height="200">
 
 If you hit Play now, you won't see anything because our scene doesn't have a Camera.
 
