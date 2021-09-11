@@ -11,8 +11,6 @@ which also has instructions for downloading view package managers such as HomeBr
 
 <img src="images/reportbug.png" height="300">>
 
-https://godotengine.org/community
-
 ### Read the Doc
 
 https://docs.godotengine.org/en/stable/
@@ -33,6 +31,11 @@ Documentation bugs are reported in the [documentation repo](https://github.com/g
 ### Request Features
 
 And yet another [Github repo](https://github.com/godotengine/godot-proposals) is used for project proposals.
+
+### The Community
+
+https://godotengine.org/community
+
 
 
 
