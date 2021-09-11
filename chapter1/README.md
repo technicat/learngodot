@@ -1,6 +1,6 @@
 # Getting Started
 
-## Prerequesites
+## Prerequisites
 
 ### Install Godot
 
@@ -16,17 +16,6 @@ The Help menu in the Godot editor has a bug report option that sends you to the 
 
 <img src="images/reportbug.png" height="300">>
 
-### Check for Updates
-
-## Explore Further
-
-### iOS Development Requirements
-
-### The Godot Website
-
-### Godot Manuals and References
-
-### The Godot Community
 
 
 
