@@ -25,7 +25,7 @@ The key property of a Spatial node is its [transform](https://docs.godotengine.o
 
 <img src="images/spatialinspector.png" height="500">
 
-## Add a Camera
+## Create a Camera
 
 If you hit Play now, you won't see anything because our scene doesn't have a Camera.
 
