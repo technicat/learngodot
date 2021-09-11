@@ -17,21 +17,13 @@ scene is made up of a [hierarchy of nodes](https://docs.godotengine.org/en/stabl
 
 In computer graphics, such a hierarchy is called a scene graph, but more specifically it's a tree, i.e. there's a single starting root node and there are no circularities in the graph.
 
-In Godot, the root node determines the type of scene, so the first thing that the editor asks you to do with an empty project is select the appropriate node/scene to start. If you select 3D Scene, the editor will create a Spatial node and display a default 3D environment.
-
-### Anatomy of a Scene
+In Godot, the root node determines the type of scene, so the first thing that the editor asks you to do with an empty project is select the appropriate node/scene to start. When you select 3D Scene, the editor will create a [Spatial node](https://docs.godotengine.org/en/stable/tutorials/3d/introduction_to_3d.html#spatial-node) as the root node.
 
 <img src="images/spatialscene.png" height="200">
 
+The key property of a Spatial node is its [transform](https://docs.godotengine.org/en/stable/tutorials/3d/using_transforms.html)
+
 <img src="images/spatialinspector.png" height="400">
-
-A scene is typically implemented as a hierarchy, or tree, of nodes. Godot scenes are used in the same way (there is always one current scene in a game, and there as to be a designated start scene), but Godo scenes are more general - any 3D tree structure or branch of that structure can be saved out as a scene, and conversely, a scene can include other scenes as branches. In other words, scenes are reusable branches.
-
-https://docs.godotengine.org/en/stable/tutorials/3d/introduction_to_3d.html#spatial-node
-
-<img src="images/createspatial.png" height="300">
-
-https://docs.godotengine.org/en/stable/tutorials/3d/using_transforms.html
 
 ## Add a Camera
 
@@ -54,6 +46,8 @@ Select the Camera to see its properties in the Inspector
 ### Create a Spatial Node
 
 Although the Camera has a transform, we'll create a parent Spatial node for it, so we can script the Camera using functions defined in the Spatial class.
+
+<img src="images/createspatial.png" height="300">
 
 ## Add a Cube to the Scene
 
