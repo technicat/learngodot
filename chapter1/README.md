@@ -17,6 +17,10 @@ https://godotengine.org/community
 
 https://docs.godotengine.org/en/stable/
 
+### Ask Questions
+
+https://godotengine.org/qa/
+
 ### Report Problems
 
 The Help menu in the Godot editor has a bug report option that sends you to the Issues tracker for the
