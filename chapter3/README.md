@@ -2,6 +2,8 @@
 
 ## Make the Cube
 
+In the same manner as we added a Camera to the scene in the previous chapter, we can add a cube. Specifically, we'll add a MeshFilter.
+
 <img src="images/createmesh.png" height="300">
 
 ## Camera Control
