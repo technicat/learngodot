@@ -1,8 +1,6 @@
 # Getting Started
 
-## Prerequisites
-
-### Download Godot
+## Download Godot
 
 Builds for macOS, Windows, and Linux are available on the [Godot download page](https://godotengine.org/download),
 which also has instructions for downloading via package managers ([HomeBrew](https://formulae.brew.sh/cask/godot#default) and [MacPorts](https://ports.macports.org/port/godot/) on macOS, [Scoop](https://scoop.sh/) on Windows),
