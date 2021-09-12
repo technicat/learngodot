@@ -1,5 +1,7 @@
 # Creating a Cube
 
+In the previous chapter, we created a scene and added a Camera so we can actually see the scene. Now let's add something to look at.
+
 ## Make a Mesh
 
 In the same manner as we added a Camera to the scene in the previous chapter, we can add a cube. Specifically, we'll add a MeshFilter.
