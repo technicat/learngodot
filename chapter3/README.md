@@ -13,7 +13,7 @@ When you select New Project from the Godot launcher, you'll be prompted for the 
 
 <img src="images/newproject.png" height="500">
 
-<img src="images/newprojectdilwa.png" height="100">
+<img src="images/newprojectdiles.png" height="100">
 
 ## Create a Scene
 
