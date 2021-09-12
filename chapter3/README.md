@@ -16,14 +16,17 @@ We still have to assign a mesh to the MeshInstance. We'll use a CubeMesh.
 
 <img src="images/meshinstancemesh.png" height="500">
 
+In the 3D view, we now see a cube.
+
 <img src="images/cubeperspective.png" height="500">
+
+And also when we hit Play, if the Camera is looking in its general direction.
 
 <img src="images/cubeplay.png" height="500">
 
+## Script the Camera
 
-## Aim the Camera
-
-### Attach the Script
+But really, we want the Camera to look directly at the cube. Let's take this opportunity to script the Camera.
 
 <img src="images/attachscript.png" height="300">
 
