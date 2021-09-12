@@ -13,6 +13,8 @@ When you select New Project from the Godot launcher, you'll be prompted for the 
 
 <img src="images/newproject.png" height="500">
 
+<img src="images/newprojectdilwa.png" height="100">
+
 ## Create a Scene
 
 In just about all game engines, or at least 3D game engines, a game is composed of one or more levels or scenes (CryEngine and Unreal use the term level, Unity and Godo use scene). The term level is probably more recognizable to game players, but I think scene is a good analogy with movies. Maybe set is an even better analogy, as a scene is the arrangement of game assets (sometimes called props, to take the movie analogy further).
