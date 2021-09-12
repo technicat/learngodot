@@ -6,7 +6,9 @@ In the same manner as we added a Camera to the scene in the previous chapter, we
 
 <img src="images/createmesh.png" height="300">
 
-<img src="images/meshfiltermesh.png" height="300">
+<img src="images/meshinstancescene.png" height="300">
+
+<img src="images/meshinstancemesh.png" height="300">
 
 
 
