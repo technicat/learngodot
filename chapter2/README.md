@@ -13,7 +13,11 @@ When you select New Project from the Godot launcher, you'll be prompted for the 
 
 <img src="images/newproject.png" height="500">
 
+If you look in the file system on your computer, you'll see there's also a .godot project file in the project folder.
+
 <img src="images/newprojectfiles.png" height="100">
+
+Double-clicking on the profile file will open the project in the Godot editor.
 
 ## Create a Scene
 
