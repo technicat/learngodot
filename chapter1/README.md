@@ -22,6 +22,8 @@ Read the [doc](https://docs.godotengine.org/en/stable/).
 
 Ask [questions](https://godotengine.org/qa/).
 
+## Report Bugs
+
 The bug report option that sends you to the Issues tracker for the
 [Godot Github repo](https://github.com/godotengine/godot/issues).
 
