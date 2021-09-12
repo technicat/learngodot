@@ -1,18 +1,8 @@
 # Creating a Cube
 
-## Add a Cube to the Scene
-
-### Make the Cube
+## Make the Cube
 
 <img src="images/createmesh.png" height="300">
-
-### Frame the Cube
-
-### Move the Cube
-
-## Anatomy of a Cube
-
-### Align with View
 
 ## Camera Control
 
