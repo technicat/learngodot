@@ -33,22 +33,6 @@ https://docs.godotengine.org/en/stable/tutorials/3d/lights_and_shadows.html#
 
 <img src="images/light.png" height="300">
 
-### Lightmapping
-
-## Adjust the Light
-
-### Make a Halo
-
-## Add a Skybox
-
-### Import the Skybox
-
-### Anatomy of a Skybox
-
-### Apply the Skybox
-
-### Add a Flare
-
 ## Textures
 
 https://docs.godotengine.org/en/stable/tutorials/3d/spatial_material.html
