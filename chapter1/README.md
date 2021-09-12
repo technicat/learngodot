@@ -13,6 +13,9 @@ Or you can build Godot from the source code on
 
 ## Get Help
 
+Help resources are linked to from the Godot editor Help menu, but you can find them from the G[Godot community webpage](https://godotengine.org/community).
+ site.
+
 <img src="images/reportbug.png" height="300">>
 
 Read the [doc](https://docs.godotengine.org/en/stable/).
@@ -26,7 +29,6 @@ Documentation bugs are reported in the [documentation repo](https://github.com/g
 
 And yet another [Github repo](https://github.com/godotengine/godot-proposals) is used for project proposals.
 
-Finally, you can participate in the [Godot community](https://godotengine.org/community).
 
 
 
