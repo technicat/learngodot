@@ -72,12 +72,10 @@ Now you should see a Camera node under the scene root node.
 
 <img src="images/scenecamera.png" height="200">
 
-And when you hit Play, the default environment (blue skies!) is now rendere.
-
-<img src="images/playcamera.png" height="300">
-
-### Anatomy of a Camera
-
 Select the Camera to see its properties in the Inspector
 
 <img src="images/camera.png" height="300">
+
+And when you hit Play, the default environment (blue skies!) is now rendere.
+
+<img src="images/playcamera.png" height="300">
