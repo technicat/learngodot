@@ -4,7 +4,10 @@ https://docs.godotengine.org/en/stable/tutorials/3d/introduction_to_3d.html
 
 ## Create a Project
 
-<img src="images/projectmanagermenu.png" height="500">
+When you launch Godot, the first window presented is the Project Manager,
+which lists known projects on the left and has a menu on the right for managing projects.
+
+<img src="images/projectmanagermenu.png" height="300">
 
 When you select New Project from the Godot launcher, you'll be prompted for the project location and then presented with the Godot editor, showing two files automatically created in the project directory: a default icon, and a default environment.
 
