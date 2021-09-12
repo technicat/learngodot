@@ -1,4 +1,4 @@
-# Making It Move: Scripting the Cube
+# Spinning the Cube
 
 ## Organize Assets
 
