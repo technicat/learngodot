@@ -1,6 +1,6 @@
 # Creating a Cube
 
-In the previous chapter, we created a scene and added a Camera so we can actually see the scene. Now let's add something to look at.
+In the previous chapter, we created a scene and added a Camera so we can actually see the scene. Now let's start populating the scene so we have something to look at.
 
 ## Make a Mesh
 
