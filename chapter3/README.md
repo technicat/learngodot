@@ -1,4 +1,4 @@
-# Making a Cube
+# Creating a Cube
 
 ## Add a Cube to the Scene
 
