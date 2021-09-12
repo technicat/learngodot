@@ -4,9 +4,13 @@
 
 In the same manner as we added a Camera to the scene in the previous chapter, we can add a cube. Specifically, we'll add a MeshFilter.
 
-<img src="images/createmesh.png" height="300">
+<img src="images/createmesh.png" height="400">
 
-<img src="images/meshinstancescene.png" height="300">
+You should now see the MeshInstance node under the scene root node.
+
+<img src="images/meshinstancescene.png" height="200">
+
+We still have to assign a mesh to the MeshInstance. We'll use a CubeMesh.
 
 <img src="images/meshinstancemesh.png" height="300">
 
