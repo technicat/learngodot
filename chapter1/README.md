@@ -18,9 +18,8 @@ Help resources are linked to from the Godot editor Help menu, but you can find t
 
 <img src="images/reportbug.png" height="300">>
 
-Read the [doc](https://docs.godotengine.org/en/stable/).
-
-Ask [questions](https://godotengine.org/qa/).
+Read the [doc](https://docs.godotengine.org/en/stable/) first, anbd then
+ask [questions](https://godotengine.org/qa/).
 
 ## Report Bugs
 
