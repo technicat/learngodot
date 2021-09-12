@@ -16,7 +16,7 @@ We still have to assign a mesh to the MeshInstance. We'll use a CubeMesh.
 
 <img src="images/meshinstancemesh.png" height="500">
 
-## Camera Control
+## Aim the Camera
 
 ### Attach the Script
 
