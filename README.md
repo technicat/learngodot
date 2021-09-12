@@ -1,8 +1,8 @@
-# learngodot
-
-*** in-progress ***
+# Learn Godot
 
 I'm learning Godot by reimplementing the code samples from my (very obsolete) book [Learn Unity 4 for iOS Game Developmen](https://github.com/technicat/learnunity).
+
+*** in-progress ***
 
 1. [Chapter 1: Getting Godot](chapter1/README.md)
 2. [Chapter 2: Making a Scene](chapter2/README.md)
