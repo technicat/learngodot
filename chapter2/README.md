@@ -32,7 +32,7 @@ In Godot, the root node determines the type of scene, so the first thing that th
 
 <img src="images/spatialscene.png" height="100">
 
-The key property of a Spatial node is its [transform](https://docs.godotengine.org/en/stable/tutorials/3d/using_transforms.html), which encapsulates the node's 3D position, rotation, and scale (relative to any parent transforms).
+The Spatial node is the most basic 3D node, conatining a [transform](https://docs.godotengine.org/en/stable/tutorials/3d/using_transforms.html), which encapsulates the node's 3D position, rotation, and scale (relative to any parent transforms).
 
 <img src="images/spatialinspector.png" height="500">
 
