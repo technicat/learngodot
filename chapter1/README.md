@@ -28,8 +28,9 @@ Documentation bugs are reported in the [documentation repo](https://github.com/g
 
 And yet another [Github repo](https://github.com/godotengine/godot-proposals) is used for project proposals.
 
+## Next Chapter
 
-
+[Making a Scene](../chapter2/README.md)
 
 
 
