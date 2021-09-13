@@ -34,11 +34,11 @@ In Godot, the root node determines the type of scene, so the first thing that th
 
 <img src="images/spatialscene.png" height="100">
 
-The Spatial node is the most basic 3D node, conatining a [transform](https://docs.godotengine.org/en/stable/tutorials/3d/using_transforms.html), which encapsulates the node's 3D position, rotation, and scale, relative to any parent nodes.
+The Spatial node is the most basic 3D node, conatining a [transform](https://docs.godotengine.org/en/stable/tutorials/3d/using_transforms.html), which encapsulates the node's 3D translation (position), rotation, and scale, relative to any parent nodes.
 
 <img src="images/spatialinspector.png" height="500">
 
-The position, rotation, and scale are individually editable in the Inspector, but they are combined in a 4x4 matrix, so they can be concatenated (multiplied) with parent transform matrices to calculate the global 3D coordinates of the node.
+The translation, rotation, and scale are individually editable in the Inspector, but they are combined in a 4x4 matrix, so they can be concatenated (multiplied) with parent transform matrices to calculate the global 3D coordinates of the node.
 
 ## Save the Scene
 
