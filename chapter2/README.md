@@ -40,6 +40,8 @@ The Spatial node is the most basic 3D node, conatining a [transform](https://doc
 
 The translation, rotation, and scale are individually editable in the Inspector, but they are combined in a 4x4 matrix, so they can be concatenated (multiplied) with parent transform matrices to calculate the global 3D coordinates of the node.
 
+All other 3D notes are sublcasses of Spatial.
+
 ## Save the Scene
 
 If you hit the Play button now, the editor will still say you first need to select a scene, so you need to save the scene.
