@@ -83,3 +83,8 @@ Select the Camera to see its properties in the Inspector
 And when you hit Play, the default environment (blue skies!) is now rendere.
 
 <img src="images/playcamera.png" height="300">
+
+## Next Chapter
+
+[Creating a Cube](../chapter3/README.md)
+
