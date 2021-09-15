@@ -36,7 +36,7 @@ The default name of the new script is the type of node we're attaching it to, bu
 
 <img src="images/cameraattachscriptdialog.png" height="300">
 
-The new script is a template subclassing the node type and populated with stubs for two callbacks: one that runs when the node is first active, and the other runs once per frame.
+The new script is a template subclassing the node type and populated with stubs for two callbacks: one that runs when the node is first active, and the other runs once per frame. You can edit the script within the Godot editor or using an external editor.
 
 <img src="images/cameraattachscriptcode.png" height="300">
 
