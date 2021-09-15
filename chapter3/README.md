@@ -28,9 +28,14 @@ And also when we hit Play, if the Camera is looking in its general direction.
 
 But really, we want the Camera to look directly at the cube. Let's take this opportunity to script the Camera.
 
-<img src="images/attachscript.png" height="300">
+<img src="images/cameraattachscriptmenu.png" height="300">
+
+<img src="images/cameraattachscriptdialog.png" height="300">
 
 - name the script look_at (snake_case, following the Godot naming conventions)
+
+<img src="images/cameraattachscriptcode.png" height="300">
+
 - replace the *pass* line in the *_ready* function
 
 Leave two empty lines before the *_ready* function, following [the Godot coding style conventions](https://docs.godotengine.org/en/stable/getting_started/workflow/project_setup/project_organization.html#style-guide).
