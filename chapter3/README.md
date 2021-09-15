@@ -58,6 +58,10 @@ func _ready():
 	look_at(Vector3(0,0,0),Vector3(0,0,-1));
 ```
 
+Now when you hit Play, the Camera is now looking directly at the Cube.
+
+<img src="images/aimatcube.png" height="300">
+
 ## Add a Light
 
 https://docs.godotengine.org/en/stable/tutorials/3d/lights_and_shadows.html#
