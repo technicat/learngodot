@@ -27,8 +27,11 @@ And also when we hit Play, if the Camera is looking in its general direction.
 ## Script the Camera
 
 But really, we want the Camera to look directly at the cube. Let's take this opportunity to script the Camera.
+Right-click/control-click on the Camera and select Attach Script.
 
 <img src="images/cameraattachscriptmenu.png" height="300">
+
+
 
 <img src="images/cameraattachscriptdialog.png" height="300">
 
