@@ -9,6 +9,8 @@ and from game portals (itch.io and Steam).
 Or you can build Godot from the source code on
 [Github](https://github.com/godotengine/godot).
 
+There is also a (limited) [web version](https://editor.godotengine.org/releases/latest/).
+
 ## Get Help
 
 Help resources are linked to from the Godot editor Help menu, but you can find them from the G[Godot community webpage](https://godotengine.org/community).
