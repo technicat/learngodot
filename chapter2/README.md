@@ -28,13 +28,19 @@ scene is made up of a [hierarchy of nodes](https://docs.godotengine.org/en/stabl
 
 In computer graphics, such a hierarchy is called a scene graph, but more specifically it's a tree, i.e. there's a single starting root node and there are no circularities in the graph.
 
+### Spatial node
+
 In Godot, the root node determines the type of scene, so the first thing that the editor asks you to do with an empty project is select the appropriate node/scene to start. When you select 3D Scene, the editor will create a [Spatial node](https://docs.godotengine.org/en/stable/tutorials/3d/introduction_to_3d.html#spatial-node) as the root node.
 
 <img src="images/spatialscene.png" height="100">
 
-The key property of a Spatial node is its [transform](https://docs.godotengine.org/en/stable/tutorials/3d/using_transforms.html), which encapsulates the node's 3D position, rotation, and scale (relative to any parent transforms).
+The Spatial node is the most basic 3D node, conatining a [transform](https://docs.godotengine.org/en/stable/tutorials/3d/using_transforms.html), which encapsulates the node's 3D translation (position), rotation, and scale, relative to any parent nodes.
 
 <img src="images/spatialinspector.png" height="500">
+
+The translation, rotation, and scale are individually editable in the Inspector, but they are combined in a 4x4 matrix, so they can be concatenated (multiplied) with parent transform matrices to calculate the global 3D coordinates of the node.
+
+All other 3D nodes, such as [Camera](https://docs.godotengine.org/en/stable/classes/class_camera.html), which we'll add next, are sublcasses of [Spatial](https://docs.godotengine.org/en/stable/classes/class_spatial.html).
 
 ## Save the Scene
 
@@ -79,3 +85,8 @@ Select the Camera to see its properties in the Inspector
 And when you hit Play, the default environment (blue skies!) is now rendere.
 
 <img src="images/playcamera.png" height="300">
+
+## Next Chapter
+
+[Creating a Cube](../chapter3/README.md)
+
