@@ -36,10 +36,13 @@ The default name of the new script is the type of node we're attaching it to, bu
 
 <img src="images/cameraattachscriptdialog.png" height="300">
 
+The new script is a template subclassing the node type and populated with stubs for two callbacks: one that runs when the node is first active, and the other runs once per frame.
 
 <img src="images/cameraattachscriptcode.png" height="300">
 
-- replace the *pass* line in the *_ready* function
+We're going to call the look_at function (defined in the Spatial node class) in the ready callback so that the camera points at the origin (coordinate 0,0,0), and the second argument is an axis vector making sure the Camera is oriented vertically.
+
+Since we're ony using a Spatial function we can keep this script general and more reusable by extending Spatial instead of Camera. And we can leave out the process callback for now, no need to execute a function every frame that does nothing.
 
 Leave two empty lines before the *_ready* function, following [the Godot coding style conventions](https://docs.godotengine.org/en/stable/getting_started/workflow/project_setup/project_organization.html#style-guide).
 
