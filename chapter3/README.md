@@ -32,9 +32,13 @@ Right-click/control-click on the Camera and select Attach Script.
 <img src="images/cameraattachscriptmenu.png" height="300">
 
 The default name of the new script is the type of node we're attaching it to, but we'll want to name this script look_at
-(snake_case, following the Godot naming conventions)
+(snake_case, following the Godot naming conventions).
 
 <img src="images/cameraattachscriptdialog.png" height="300">
+
+You can always rename the script in the Filesystem view.
+
+<img src="images/cameraattachscriptsaved.png" height="300">
 
 The new script is a template subclassing the node type and populated with stubs for two callbacks: one that runs when the node is first active, and the other runs once per frame. You can edit the script within the Godot editor or using an external editor.
 
