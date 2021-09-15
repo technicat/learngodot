@@ -1,56 +1,87 @@
-# Spinning the Cube
+# Creating a Cube
 
-## Organize Assets
+In the previous chapter, we created a scene and added a Camera so we can actually see the scene. Now let's start populating the scene so we have something to look at.
 
-In this chapter, we'll add another script, so it's a good time to start organizing our assets into separate folder.
+## Make a Mesh
 
-https://docs.godotengine.org/en/stable/getting_started/workflow/project_setup/project_organization.html#organization
+In the same manner as we added a Camera to the scene in the previous chapter, we can add a cube. Specifically, we'll add a MeshFilter.
 
-<img src="images/newfolder.png" height="300">
-<img src="images/scriptsfolder.png" height="300">
+<img src="images/createmesh.png" height="400">
 
-## Script the Cube
+You should now see the MeshInstance node under the scene root node.
 
-In the previous chapter, we attached a new script to the Camera's parent [Spatial](https://docs.godotengine.org/en/stable/classes/class_spatial.html) node and then placed a call to Spatial.look_at.
+<img src="images/meshinstancescene.png" height="200">
 
-Similarly, here we'll attach a new script to the Cube's parent Spatial node and add a call to Spatial.rotate_y to rotate the Cube around it's y-axis (or more precisely, the Spatial node's y-axis).
+We still have to assign a mesh to the MeshInstance. We'll use a CubeMesh.
+
+<img src="images/meshinstancemesh.png" height="500">
+
+In the 3D view, we now see a cube.
+
+<img src="images/cubeperspective.png" height="500">
+
+And also when we hit Play, if the Camera is looking in its general direction.
+
+<img src="images/cubeplay.png" height="500">
+
+## Script the Camera
+
+But really, we want the Camera to look directly at the cube. Let's take this opportunity to script the Camera.
+Right-click/control-click on the Camera and select Attach Script.
+
+<img src="images/cameraattachscriptmenu.png" height="300">
+
+The default name of the new script is the type of node we're attaching it to, but we'll want to name this script look_at
+(snake_case, following the Godot naming conventions).
+
+<img src="images/cameraattachscriptdialog.png" height="300">
+
+You can always rename the script in the Filesystem view.
+
+<img src="images/cameraattachscriptsaved.png" height="300">
+
+The new script is a template subclassing the node type and populated with stubs for two callbacks: one that runs when the node is first active, and the other runs once per frame. You can edit the script within the Godot editor or using an external editor.
+
+<img src="images/cameraattachscriptcode.png" height="300">
+
+We're going to call the look_at function (defined in the Spatial node class) in the ready callback so that the camera points at the origin (coordinate 0,0,0), and the second argument is an axis vector making sure the Camera is oriented vertically.
+
+Since we're ony using a Spatial function we can keep this script general and more reusable by extending Spatial instead of Camera. And we can leave out the process callback for now, no need to execute a function every frame that does nothing.
+
+Leave two empty lines before the *_ready* function, following [the Godot coding style conventions](https://docs.godotengine.org/en/stable/getting_started/workflow/project_setup/project_organization.html#style-guide).
 
 ```gdscript
 extends Spatial
 
-export var speed = 1.0;
 
-func _process(delta):
-	rotate_y(delta*speed);
+func _ready():
+	look_at(Vector3(0,0,0),Vector3(0,0,-1));
 ```
 
-## Scenes within Scenes
+Now when you hit Play, the Camera is now looking directly at the Cube.
 
-### Copy the Scene
+<img src="images/aimatcube.png" height="300">
 
-Save As to make a copy of the scene. Rename the new scene Cube.tscn.
+## Add a Light
 
-<img src="images/cubetscn.png" height="300">
+https://docs.godotengine.org/en/stable/tutorials/3d/lights_and_shadows.html#
 
+<img src="images/createlight.png" height="300">
 
-In the new Cube scene, make the Cube node the scene root and delete all the other nodes.
+### Anatomy of a Light
 
-<img src="images/makeroot.png" height="300">
-<img src="images/deletenode.png" height="300">
+<img src="images/light.png" height="300">
 
-<img src="images/makeroot.png" height="300">
-<img src="images/deletenode.png" height="300">
+## Textures
 
-<img src="images/cubescene.png" height="300">
+https://docs.godotengine.org/en/stable/tutorials/3d/spatial_material.html
 
-### Instance the Scene
+<img src="images/textureimport.png" height="300">
 
-<img src="images/instancescene.png">
+<img src="images/materialtexture.png" height="300">
 
-### Vary the Parameters
+### Browse the Asset Library
 
-<img src="images/cube3.png">
-
-<img src="images/playcubes.png">
+https://docs.godotengine.org/en/stable/tutorials/assetlib/what_is_assetlib.html
 
 
