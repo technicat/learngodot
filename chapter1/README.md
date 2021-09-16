@@ -20,7 +20,11 @@ which lists known projects on the left and has a menu on the right for managing 
 
 ## Create a Project
 
-When you select New Project from the Godot launcher, you'll be prompted for the project location and then presented with the Godot editor, showing two files automatically created in the project directory: a default icon, and a default environment.
+When you select New Project from the Godot launcher, you'll be prompted for the project location
+
+<img src="images/createnewproject.png" height="500">
+
+and then presented with the Godot editor, showing two files automatically created in the project directory: a default icon, and a default environment.
 
 <img src="images/newproject.png" height="500">
 
