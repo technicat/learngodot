@@ -16,7 +16,7 @@ There is also a (limited) [web version](https://editor.godotengine.org/releases/
 When you launch Godot (double-click the app, or run it from the [command line](https://docs.godotengine.org/en/stable/getting_started/editor/command_line_tutorial.html), the first window presented is the Project Manager,
 which lists known projects on the left and has a menu on the right for managing projects.
 
-<img src="images/projectmanagermenu.png" height="300">
+<img src="images/projectmanager.png" height="300">
 
 ## Create a Project
 
