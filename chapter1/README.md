@@ -16,13 +16,13 @@ There is also a (limited) [web version](https://editor.godotengine.org/releases/
 When you launch Godot (double-click the app, or run it from the [command line](https://docs.godotengine.org/en/stable/getting_started/editor/command_line_tutorial.html), the first window presented is the Project Manager,
 which lists known projects on the left and has a menu on the right for managing projects.
 
-<img src="images/projectmanager.png" height="300">
+<img src="images/projectmanager.png" height="400">
 
 ## Create a Project
 
 When you select New Project from the Godot launcher, you'll be prompted for the project location
 
-<img src="images/createnewproject.png" height="500">
+<img src="images/createnewproject.png" height="300">
 
 and then presented with the Godot editor, showing two files automatically created in the project directory: a default icon, and a default environment.
 
