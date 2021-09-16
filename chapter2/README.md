@@ -59,7 +59,7 @@ There are a lot of possible nodes to add, but you can find the Camera node quick
 
 Now you should see a Camera node under the scene root node.
 
-<img src="images/scenecamera.png" height="200">
+<img src="images/scenecamera.png" height="100">
 
 Select the Camera to see its properties in the Inspector
 
