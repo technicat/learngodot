@@ -11,6 +11,23 @@ Or you can build Godot from the source code on
 
 There is also a (limited) [web version](https://editor.godotengine.org/releases/latest/).
 
+## Create a Project
+
+When you launch Godot, the first window presented is the Project Manager,
+which lists known projects on the left and has a menu on the right for managing projects.
+
+<img src="images/projectmanagermenu.png" height="300">
+
+When you select New Project from the Godot launcher, you'll be prompted for the project location and then presented with the Godot editor, showing two files automatically created in the project directory: a default icon, and a default environment.
+
+<img src="images/newproject.png" height="500">
+
+If you look in the file system on your computer, you'll see there's also a .godot project file in the project folder.
+
+<img src="images/newprojectfiles.png" height="100">
+
+Double-clicking on the profile file will open the project in the Godot editor.
+
 ## Get Help
 
 Help resources are linked to from the Godot editor Help menu, but you can find them from the G[Godot community webpage](https://godotengine.org/community).
