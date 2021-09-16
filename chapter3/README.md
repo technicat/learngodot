@@ -10,7 +10,7 @@ In the same manner as we added a Camera to the scene in the previous chapter, we
 
 You should now see the MeshInstance node under the scene root node.
 
-<img src="images/meshinstancescene.png" height="100">
+<img src="images/meshinstancescene.png" height="150">
 
 We still have to assign a mesh to the MeshInstance. We'll use a CubeMesh.
 
