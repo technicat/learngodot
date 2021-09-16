@@ -2,23 +2,6 @@
 
 https://docs.godotengine.org/en/stable/tutorials/3d/introduction_to_3d.html
 
-## Create a Project
-
-When you launch Godot, the first window presented is the Project Manager,
-which lists known projects on the left and has a menu on the right for managing projects.
-
-<img src="images/projectmanagermenu.png" height="300">
-
-When you select New Project from the Godot launcher, you'll be prompted for the project location and then presented with the Godot editor, showing two files automatically created in the project directory: a default icon, and a default environment.
-
-<img src="images/newproject.png" height="500">
-
-If you look in the file system on your computer, you'll see there's also a .godot project file in the project folder.
-
-<img src="images/newprojectfiles.png" height="100">
-
-Double-clicking on the profile file will open the project in the Godot editor.
-
 ## Create a Scene
 
 In just about all game engines, or at least 3D game engines, a game is composed of one or more levels or scenes (CryEngine and Unreal use the term level, Unity and Godo use scene). The term level is probably more recognizable to game players, but I think scene is a good analogy with movies. Maybe set is an even better analogy, as a scene is the arrangement of game assets (sometimes called props, to take the movie analogy further).
