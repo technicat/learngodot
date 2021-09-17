@@ -18,8 +18,7 @@ https://docs.godotengine.org/en/stable/tutorials/3d/spatial_material.html
 
 <img src="images/materialtexture.png" height="300">
 
-### Browse the Asset Library
+### Next Chapter
 
-https://docs.godotengine.org/en/stable/tutorials/assetlib/what_is_assetlib.html
-
+[Texturing the Cube](../chapter5/README.md)
 
