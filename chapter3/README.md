@@ -64,5 +64,5 @@ Now when you hit Play, the Camera is now looking directly at the Cube.
 
 ## Next Chapter
 
-[Lighting and Texturing the Cube](../chapter4/README.md)
+[Lighting the Cube](../chapter4/README.md)
 
