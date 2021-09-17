@@ -14,6 +14,6 @@ https://docs.godotengine.org/en/stable/tutorials/assetlib/what_is_assetlib.html
 
 ## Next Chapter
 
-[Spinning the Cube](../chpater6/README.md)
+[Spinning the Cube](../chapter6/README.md)
 
 
