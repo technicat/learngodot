@@ -1,6 +1,7 @@
 # Creating a Cube
 
-In the previous chapter, we created a scene and added a Camera so we can actually see the scene.
+In the previous chapter, we created a scene and added a [Camera](https://docs.godotengine.org/en/stable/classes/class_camera.html?highlight=camera#camera)
+so we can actually see the scene.
 Now let's start populating the scene so we have something to look at.
 
 ## Make a Mesh
