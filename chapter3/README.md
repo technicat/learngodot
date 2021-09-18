@@ -18,7 +18,7 @@ You should now see the MeshInstance node under the scene root node.
 
 <img src="images/meshinstancescene.png" height="150">
 
-We still have to assign a mesh to the MeshInstance. We'll use a CubeMesh.
+We still have to assign a mesh to the MeshInstance. A number of geometric primitives are acailable, We'll use a CubeMesh.
 
 <img src="images/meshinstancemesh.png" height="500">
 
