@@ -10,6 +10,7 @@ Godot is no exception -- a Godot project consists of one or more scenes, and eac
 scene is made up of a [hierarchy of nodes](https://docs.godotengine.org/en/stable/getting_started/step_by_step/scenes_and_nodes.html), each node representing a position/rotation/scale with respect to its parent node.
 
 In computer graphics, such a hierarchy is called a scene graph, but more specifically it's a tree, i.e. there's a single starting root node and there are no circularities in the graph.
+In fact, Godot callas it a [SceneTree](https://docs.godotengine.org/en/stable/getting_started/step_by_step/scene_tree.html).
 
 ### Spatial node
 
@@ -21,9 +22,11 @@ The Spatial node is the most basic 3D node, conatining a [transform](https://doc
 
 <img src="images/spatialinspector.png" height="500">
 
-The translation, rotation, and scale are individually editable in the Inspector, but they are combined in a 4x4 matrix, so they can be concatenated (multiplied) with parent transform matrices to calculate the global 3D coordinates of the node.
+The translation, rotation, and scale are individually editable in the Inspector, but they are combined in a 4x4 matrix,
+so they can be concatenated (multiplied) with parent transform matrices to calculate the global 3D coordinates of the node.
 
-All other 3D nodes, such as [Camera](https://docs.godotengine.org/en/stable/classes/class_camera.html), which we'll add next, are sublcasses of [Spatial](https://docs.godotengine.org/en/stable/classes/class_spatial.html).
+All other 3D nodes, such as [Camera](https://docs.godotengine.org/en/stable/classes/class_camera.html),
+which we'll add next, are sublcasses of [Spatial](https://docs.godotengine.org/en/stable/classes/class_spatial.html).
 
 ## Save the Scene
 
@@ -31,7 +34,9 @@ If you hit the Play button now, the editor will still say you first need to sele
 
 <img src="images/savescene.png" height="400">
 
-The [Godot style guide](https://docs.godotengine.org/en/stable/getting_started/workflow/project_setup/project_organization.html#style-guide) recommends snake_case for filenames. Here we just save it as "scene.tscn" (.tscn is the automatically supplied suffix for scene files). After saving, you should see the new file in the FileSystem view.
+The [Godot style guide](https://docs.godotengine.org/en/stable/getting_started/workflow/project_setup/project_organization.html#style-guide)
+recommends snake_case for filenames. Here we just save it as "scene.tscn" (.tscn is the automatically supplied suffix for scene files).
+After saving, you should see the new file in the FileSystem view.
 
 <img src="images/savedscene.png" height="200">
 
