@@ -4,7 +4,7 @@ In the previous chapter, we created a scene and added a Camera so we can actuall
 
 ## Make a Mesh
 
-In the same manner as we added a Camera to the scene in the previous chapter, we can add a cube. Specifically, we'll add a MeshFilter.
+In the same manner as we added a Camera to the scene in the previous chapter, we can add something to look at. Normally, you'll import assets, but we can create some simple geometry in the editor. To start, we'll add a MeshFilter.
 
 <img src="images/createmesh.png" height="400">
 
