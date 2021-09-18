@@ -1,10 +1,13 @@
 # Creating a Cube
 
-In the previous chapter, we created a scene and added a Camera so we can actually see the scene. Now let's start populating the scene so we have something to look at.
+In the previous chapter, we created a scene and added a Camera so we can actually see the scene.
+Now let's start populating the scene so we have something to look at.
 
 ## Make a Mesh
 
-In the same manner as we added a Camera to the scene in the previous chapter, we can add something to look at. Normally, you'll import assets, but we can create some simple geometry in the editor. To start, we'll add a MeshFilter.
+In the same manner as we added a Camera to the scene in the previous chapter, we can add something to look at.
+Normally, you'll [import assets](https://docs.godotengine.org/en/stable/getting_started/workflow/assets/index.html),
+but we can create some simple geometry in the editor. To start, we'll add a MeshFilter.
 
 <img src="images/createmesh.png" height="400">
 
@@ -31,7 +34,8 @@ Right-click/control-click on the Camera and select Attach Script.
 
 <img src="images/cameraattachscriptmenu.png" height="300">
 
-The default name of the new script is the type of node we're attaching it to, but we'll want to name this script look_at
+The default name of the new script is the type of node we're attaching it to,
+but we'll want to name this script look_at
 (snake_case, following the Godot naming conventions).
 
 <img src="images/cameraattachscriptdialog.png" height="300">
@@ -40,15 +44,19 @@ You can always rename the script in the Filesystem view.
 
 <img src="images/cameraattachscriptsaved.png" height="300">
 
-The new script is a template subclassing the node type and populated with stubs for two callbacks: one that runs when the node is first active, and the other runs once per frame. You can edit the script within the Godot editor or using an external editor.
+The new script is a template subclassing the node type and populated with stubs for two callbacks: one that runs when the node is first active,
+and the other runs once per frame. You can edit the script within the Godot editor or using an external editor.
 
 <img src="images/cameraattachscriptcode.png" height="300">
 
-We're going to call the look_at function (defined in the Spatial node class) in the ready callback so that the camera points at the origin (coordinate 0,0,0), and the second argument is an axis vector making sure the Camera is oriented vertically.
+We're going to call the look_at function (defined in the Spatial node class) in the ready callback so that the camera points at the origin (coordinate 0,0,0),
+and the second argument is an axis vector making sure the Camera is oriented vertically.
 
-Since we're ony using a Spatial function we can keep this script general and more reusable by extending Spatial instead of Camera. And we can leave out the process callback for now, no need to execute a function every frame that does nothing.
+Since we're ony using a Spatial function we can keep this script general and more reusable by extending Spatial instead of Camera.
+And we can leave out the process callback for now, no need to execute a function every frame that does nothing.
 
-Leave two empty lines before the *_ready* function, following [the Godot coding style conventions](https://docs.godotengine.org/en/stable/getting_started/workflow/project_setup/project_organization.html#style-guide).
+Leave two empty lines before the *_ready* function,
+following [the Godot coding style conventions](https://docs.godotengine.org/en/stable/getting_started/workflow/project_setup/project_organization.html#style-guide).
 
 ```gdscript
 extends Spatial
