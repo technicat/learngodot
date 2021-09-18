@@ -7,7 +7,9 @@ Now let's start populating the scene so we have something to look at.
 
 In the same manner as we added a Camera to the scene in the previous chapter, we can add something to look at.
 Normally, you'll [import assets](https://docs.godotengine.org/en/stable/getting_started/workflow/assets/index.html),
-but we can create some simple geometry in the editor. To start, we'll add a MeshFilter.
+but we can create some simple geometry in the editor.
+
+To start, we'll add a [MeshInstance](https://docs.godotengine.org/en/stable/classes/class_meshinstance.html).
 
 <img src="images/createmesh.png" height="400">
 
