@@ -26,8 +26,8 @@ The translation, rotation, and scale are individually editable in the Inspector,
 so they can be concatenated (multiplied) with parent transform matrices to calculate the global 3D coordinates of the node.
 
 All other 3D nodes, such as [Camera](https://docs.godotengine.org/en/stable/classes/class_camera.html),
-which we'll add next, are sublcasses of [Spatial](https://docs.godotengine.org/en/stable/classes/class_spatial.html),
-so will also have a transform.
+which we'll add next, are subclasses of [Spatial](https://docs.godotengine.org/en/stable/classes/class_spatial.html),
+so each will also have a transform.
 
 ## Save the Scene
 
