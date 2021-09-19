@@ -4,6 +4,9 @@ Now it's time to add [lighting](https://docs.godotengine.org/en/stable/tutorials
 
 ## Add a Light
 
+First, invoke Add Child Node again and search for a light.
+The type of light we want is OmniLight, generally known as a point light, i.e. a light that has a position and emanates light from that position.
+
 <img src="images/createlight.png" height="300">
 
 <img src="images/lightscene.png" height="200">
