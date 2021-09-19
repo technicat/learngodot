@@ -12,6 +12,8 @@ https://docs.godotengine.org/en/stable/tutorials/3d/spatial_material.html
 
 https://docs.godotengine.org/en/stable/tutorials/assetlib/what_is_assetlib.html
 
+<img src="images/assetlibrarymaterial.png" height="300">
+
 ## Next Chapter
 
 [Spinning the Cube](../chapter6/README.md)
