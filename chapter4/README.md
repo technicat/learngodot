@@ -1,12 +1,12 @@
 # Lighting the Cube
 
-https://docs.godotengine.org/en/stable/tutorials/3d/lights_and_shadows.html
+Now it's time to add [lighting](https://docs.godotengine.org/en/stable/tutorials/3d/lights_and_shadows.html).
 
 ## Add a Light
 
 <img src="images/createlight.png" height="300">
 
-<img src="images/lightscene.png" height="300">
+<img src="images/lightscene.png" height="200">
 
 ### Anatomy of a Light
 
