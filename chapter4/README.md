@@ -17,7 +17,11 @@ Now our scene has a camera, cube, and light.
 
 ### Anatomy of a Light
 
+In the Inspector, we can fiddle with the light's properties. For example, we can change the color to yellow so that the light emits yellow instead of white, and for the light to reach the cube's surface, we have to position the light outside the cube and, if necessary, adjust the range so make the sure the light extends to the cube.
+
 <img src="images/light.png" height="300">
+
+And then when you hit Play, the cube should look yellow.
 
 <img src="images/yellowcube.png" height="300">
 
