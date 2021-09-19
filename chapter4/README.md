@@ -10,6 +10,8 @@ https://docs.godotengine.org/en/stable/tutorials/3d/lights_and_shadows.html
 
 <img src="images/light.png" height="300">
 
+<img src="images/yellowcube.png" height="300">
+
 ### Next Chapter
 
 [Texturing the Cube](../chapter5/README.md)
