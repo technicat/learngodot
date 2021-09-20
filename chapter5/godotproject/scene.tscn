@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://look_at.gd" type="Script" id=1]
-[ext_resource path="res://materials/diamondplate_tex.png" type="Texture" id=2]
+[ext_resource path="res://cat.jpg" type="Texture" id=2]
 
 [sub_resource type="CubeMesh" id=1]
 
