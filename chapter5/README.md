@@ -2,6 +2,12 @@
 
 The cube is still pretty bland, so let's add a texture to it.
 
+### Browse the Asset Library
+
+https://docs.godotengine.org/en/stable/tutorials/assetlib/what_is_assetlib.html
+
+<img src="images/assetlibrarymaterials.png" height="300">
+
 ## Add a Material
 
 To texture a the cube, we first need to assign a material to the MeshInstance.
@@ -13,14 +19,6 @@ And then Edit the new material.
 
 <img src="images/materialedit.png" height="300">
 
-### Browse the Asset Library
-
-https://docs.godotengine.org/en/stable/tutorials/assetlib/what_is_assetlib.html
-
-<img src="images/assetlibrarymaterials.png" height="300">
-
 ## Next Chapter
 
 [Spinning the Cube](../chapter6/README.md)
-
-
