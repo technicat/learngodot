@@ -2,6 +2,8 @@
 
 ## Import a Texture
 
+<img src="images/textureimport.png" height="300">
+
 ## Add a Material
 
 To texture a the cube, we first need to assign a material to the MeshInstance.
