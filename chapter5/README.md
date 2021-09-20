@@ -19,6 +19,12 @@ And then Edit the new material.
 
 <img src="images/materialedit.png" height="300">
 
+## Assign the Texture
+
+<img src="images/cattextured.png" height="300">
+
+<img src="images/catuvscaled.png" height="300">
+
 ## Next Chapter
 
 [Spinning the Cube](../chapter6/README.md)
