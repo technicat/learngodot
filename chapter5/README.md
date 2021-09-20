@@ -13,12 +13,6 @@ And then Edit the new material.
 
 <img src="images/materialedit.png" height="300">
 
-## Textures
-
-<img src="images/textureimport.png" height="300">
-
-<img src="images/materialtexture.png" height="300">
-
 ### Browse the Asset Library
 
 https://docs.godotengine.org/en/stable/tutorials/assetlib/what_is_assetlib.html
