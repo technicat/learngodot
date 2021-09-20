@@ -23,7 +23,7 @@ In the Inspector, we can fiddle with the light's properties. For example, we can
 
 And then when you hit Play, the cube should look yellow.
 
-<img src="images/yellowcube.png" height="300">
+<img src="images/yellowcube.png" height="400">
 
 ### Next Chapter
 
