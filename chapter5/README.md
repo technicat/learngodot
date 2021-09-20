@@ -3,9 +3,8 @@
 ## Materials
 
 The cube is still pretty bland, so let's add a texture to it.
-To texture a the cube, we first need to assign a material to the MeshInstance.
-
-https://docs.godotengine.org/en/stable/tutorials/3d/spatial_material.html
+To texture a the cube, we first need to assign a material to the MeshInstance,
+specifically a [Spatial Material](https://docs.godotengine.org/en/stable/tutorials/3d/spatial_material.html).
 
 ## Textures
 
