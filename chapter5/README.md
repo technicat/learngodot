@@ -1,15 +1,6 @@
 # Texturing the Cube
 
-The cube is still pretty bland, so let's add a texture to it.
-
-### Browse the Asset Library
-
-Any image file can be imported as a texture,
-but we find some that are properly designed as textures in the Godot [asset library](https://docs.godotengine.org/en/stable/tutorials/assetlib/what_is_assetlib.html).
-
-Select the Asset Lib tab on the workspace view and select Material as the asset type. A bunch of asset packages containing textures will appear.
-
-<img src="images/assetlibrarymaterials.png" height="300">
+## Import a Texture
 
 ## Add a Material
 
