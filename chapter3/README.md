@@ -71,7 +71,7 @@ func _ready():
 
 Now when you hit Play, the Camera is now looking directly at the Cube.
 
-<img src="images/aimatcube.png" height="300">
+<img src="images/aimatcube.png" height="400">
 
 ## Next Chapter
 
