@@ -24,3 +24,6 @@ func _process(delta):
 	rotate_y(delta*speed);
 ```
 
+## Next Chapter
+
+[Reusing the Cube](../chapter7/README.md)
