@@ -12,14 +12,6 @@ omni_range = 20.0
 
 [node name="Cube" parent="." instance=ExtResource( 1 )]
 
-[node name="Cube2" parent="Cube" instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 0 )
-speed = 2.0
-
-[node name="Cube3" parent="Cube" instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, 0 )
-speed = 3.0
-
 [node name="Camera" type="Camera" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, 10 )
 script = ExtResource( 2 )
