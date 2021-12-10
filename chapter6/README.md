@@ -26,7 +26,7 @@ func _process(delta):
 
 Since we [export](https://docs.godotengine.org/en/stable/getting_started/scripting/gdscript/gdscript_exports.html) the speed variable, it shows up in the Inspector as editable value, so we can change the speed, even while the scene is playing.
 
-<img src="images/cubespeed.png" height="300">
+<img src="images/cubespeed.png" height="200">
 
 Hit the play button and we see the cube spin. Try changing the speed to different numbers.
 
