@@ -24,7 +24,7 @@ func _process(delta):
 	rotate_y(delta*speed);
 ```
 
-Since specified the speed variable is exported, it shows up in the Inspector as editable value, so we can change the speed, even while the scene is playing.
+Since we [export](https://docs.godotengine.org/en/stable/getting_started/scripting/gdscript/gdscript_exports.html) the speed variable, it shows up in the Inspector as editable value, so we can change the speed, even while the scene is playing.
 
 <img src="images/cubespeed.png" height="300">
 
