@@ -32,6 +32,24 @@ Hit the play button and we see the cube spin. Try changing the speed to differen
 
 <img src="images/cuberotate.png" height="300">
 
+## Rescript the Camera
+
+Now that we know how to export variables in a script, let's update our Camera look_at script to be more reusable.
+
+```gdscript
+extends Spatial
+
+export var target = Vector3(0,0,0);
+export var up = Vector3(0,0,-1);
+
+func _ready():
+	look_at(target,up);
+```
+
+And now when we select the Camera node, the Inspector shows the new editable values.
+
+<img src="images/camerainspect.png" height="200">
+
 ## Next Chapter
 
 [Reusing the Cube](../chapter7/README.md)
