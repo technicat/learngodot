@@ -25,3 +25,9 @@ ui_cancel is assigned to the ESC key on desktop computers, so when you hit Play 
 ### Pause
 
 https://docs.godotengine.org/en/stable/tutorials/misc/pausing_games.html
+
+```gdscript
+func _input(event):
+	if event.is_action_pressed("ui_cancel"):
+		get_tree().paused = true
+```
