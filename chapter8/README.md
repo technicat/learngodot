@@ -21,3 +21,7 @@ func _input(event):
 ```
 
 ui_cancel is assigned to the ESC key on desktop computers, so when you hit Play and then the ESC key, you'll see "ui_cancelled!" in the editor output pane.
+
+### Pause
+
+https://docs.godotengine.org/en/stable/tutorials/misc/pausing_games.html
