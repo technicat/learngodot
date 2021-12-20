@@ -2,5 +2,4 @@ extends Spatial
 
 func _input(event):
 	if event.is_action_pressed("ui_cancel"):
-		print("ui_cancelled!")
-
+		get_tree().paused = true
