@@ -5,7 +5,6 @@
 [ext_resource path="res://Scripts/pause.gd" type="Script" id=3]
 
 [node name="Scene" type="Spatial"]
-script = ExtResource( 3 )
 
 [node name="OmniLight" type="OmniLight" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 10, 20 )
@@ -25,3 +24,7 @@ speed = 3.0
 [node name="Camera" type="Camera" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, 10 )
 script = ExtResource( 2 )
+
+[node name="Pause" type="Node" parent="."]
+pause_mode = 2
+script = ExtResource( 3 )

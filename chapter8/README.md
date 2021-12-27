@@ -24,10 +24,40 @@ ui_cancel is assigned to the ESC key on desktop computers, so when you hit Play 
 
 ### Pause
 
-https://docs.godotengine.org/en/stable/tutorials/misc/pausing_games.html
+Now let's have the ESC key do something more interesting, namely pause the game (I know from experience that's the first thing people will complain about if you don't have it). We can take advantage of Godot's [pause game support](https://docs.godotengine.org/en/stable/tutorials/misc/pausing_games.html), and replace the print statement in our _input callback with a line that sets the game pause state to true.
 
 ```gdscript
 func _input(event):
 	if event.is_action_pressed("ui_cancel"):
 		get_tree().paused = true
 ```
+
+Now when you run the game and hit ESC, the game will pause. How about unpause? A succinct way to do that is set the pause state to the opposite, so ESC will pause/unpause the game.
+
+```gdscript
+func _input(event):
+	if event.is_action_pressed("ui_cancel"):
+		get_tree().paused = !get_tree().paused
+```
+
+Except this doesn't quite work, after pausing the game, all the scene nodes are have stopped running, including the node with the pause script.
+
+To get around this, let's move the pause script to a new node.
+
+<img src="images/pausenode.png" height="300">
+
+The new node doesn't have to be Spatial, since we're not doing any 3D with it, so just choosing basic Node is sufficient. A general good practice is to pick the most basic class you need. And that allows us to make our script a bit more general by extending Node instead of Spatial, so we can attach it to any Node or subclass of Node.
+
+```gdscript
+extends Node
+
+func _input(event):
+	if event.is_action_pressed("ui_cancel"):
+		get_tree().paused = !get_tree().paused
+```
+
+Now that the pause script is attached to a node that's separate and not above the nodes we want to pause, we can have it respond differently to a change in pause state. If set the pause mode for the Pause node to Process, then it will continue to run even if the game is paused.
+
+<img src="images/pausemode.png" height="300">
+
+Now when we hit Play and then hit the ESC key repeatedly, it will pause and unpause the game.
