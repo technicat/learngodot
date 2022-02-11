@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://cube.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scripts/look_at.gd" type="Script" id=2]
 [ext_resource path="res://Scripts/pause.gd" type="Script" id=3]
+[ext_resource path="res://Scripts/unpause_button.gd" type="Script" id=4]
 
 [node name="Scene" type="Spatial"]
 
@@ -28,3 +29,16 @@ script = ExtResource( 2 )
 [node name="Pause" type="Node" parent="."]
 pause_mode = 2
 script = ExtResource( 3 )
+
+[node name="Button" type="Button" parent="Pause"]
+margin_left = 100.0
+margin_top = 100.0
+margin_right = 112.0
+margin_bottom = 120.0
+toggle_mode = true
+shortcut_in_tooltip = false
+text = "Unpause"
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
