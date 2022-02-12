@@ -31,11 +31,11 @@ pause_mode = 2
 script = ExtResource( 3 )
 
 [node name="Button" type="Button" parent="Pause"]
+visible = false
 margin_left = 100.0
 margin_top = 100.0
 margin_right = 112.0
 margin_bottom = 120.0
-toggle_mode = true
 shortcut_in_tooltip = false
 text = "Unpause"
 script = ExtResource( 4 )

@@ -15,11 +15,6 @@ func _ready():
 #func _process(delta):
 #	pass
 
-func _toggled(button_pressed):
-	# Pause or unpause the SceneTree based on whether the button is
-	# toggled on or off.
-	get_tree().paused = button_pressed
-	if button_pressed:
-		text = "Unpause"
-	else:
-		text = "Pause"
+func _pressed():
+	get_tree().paused = false
+	visible = false
