@@ -64,9 +64,8 @@ following [the Godot coding style conventions](https://docs.godotengine.org/en/s
 ```gdscript
 extends Spatial
 
-
 func _ready():
-	look_at(Vector3(0,0,0),Vector3(0,0,-1));
+	look_at(Vector3(0,0,0),Vector3(0,0,-1))
 ```
 
 Now when you hit Play, the Camera is now looking directly at the Cube.

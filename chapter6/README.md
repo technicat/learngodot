@@ -39,11 +39,11 @@ Now that we know how to export variables in a script, let's update our Camera lo
 ```gdscript
 extends Spatial
 
-export var target = Vector3(0,0,0);
-export var up = Vector3(0,0,-1);
+export var target = Vector3(0,0,0)
+export var up = Vector3(0,0,-1)
 
 func _ready():
-	look_at(target,up);
+	look_at(target,up)
 ```
 
 And now when we select the Camera node, the Inspector shows the new editable values.
