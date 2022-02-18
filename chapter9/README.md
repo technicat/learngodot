@@ -1,4 +1,4 @@
-# The Game GUI
+# Adding a GUI
 
 ## A Pause Button
 

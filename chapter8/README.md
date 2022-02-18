@@ -1,4 +1,4 @@
-# Let's Play! Scripting the Game
+# Pausing the Game
 
 ## Input
 
