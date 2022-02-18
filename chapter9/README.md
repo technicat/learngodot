@@ -2,17 +2,17 @@
 
 ## A Pause Button
 
-I'm fine with just using the ESC key to pause and unpause a game, but conventionally there is a pause GUI. 
+I'm fine with just using the ESC key to pause and unpause a game, but conventionally there is a pause [GUI](https://docs.godotengine.org/en/stable/tutorials/ui/index.html),
 
 ### Adding a Button
 
-Let's start with adding an Unpause button that appears when the game is paused. We'll add a Button as a child of the Pause node.
+Let's start with adding an Unpause [button](https://docs.godotengine.org/en/stable/classes/class_button.html#class-button) that appears when the game is paused. We'll add a Button as a child of the Pause node.
 
 By default, it will inherit the pause mode of the parent Pause node.
 
 ### Showing the Button
 
-We add one more line to our pause script, using find_node to search for a child node named Button and making it visible if (and only if) the scene is paused.
+We add one more line to our pause script, using [find_node](https://docs.godotengine.org/en/stable/classes/class_node.html) to search for a child node named Button and making it visible if (and only if) the scene is paused.
 
 ```gdscript
 extends Node
