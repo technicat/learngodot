@@ -8,9 +8,17 @@ I'm fine with just using the ESC key to pause and unpause a game, but convention
 
 Let's start with adding an Unpause [button](https://docs.godotengine.org/en/stable/classes/class_button.html#class-button) that appears when the game is paused. We'll add a Button as a child of the Pause node.
 
-By default, it will inherit the pause mode of the parent Pause node.
+<img src="images/createbutton.png" height="300">
+
+<img src="images/pausebutton.png" height="300">
+
+By default, it will inherit the pause mode of the parent Pause node, which is to always run whether or not the scene is paused.
+
+<img src="images/buttonpausemode.png" height="300">
 
 Set the [size and anchors](https://docs.godotengine.org/en/stable/tutorials/ui/size_and_anchors.html) so that the Button is centered in the screen (no matter what resolution the screen is).
+
+<img src="images/buttonanchor.png" height="300">
 
 ### Showing the Button
 
