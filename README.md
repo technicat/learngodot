@@ -12,5 +12,6 @@ I'm learning [Godot](http://godotengine.org/) by reimplementing the code samples
 6. [Chapter 6: Spinning the Cube](chapter6/README.md)
 7. [Chapter 7: Replicating the Cube](chapter7/README.md)
 8. [Chapter 8: Scripting the Game](chapter8/README.md)
+8. [Chapter 9: Adding a GUI](chapter9/README.md)
 
 
