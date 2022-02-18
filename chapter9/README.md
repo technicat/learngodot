@@ -12,6 +12,11 @@ Let's start with adding an Unpause [button](https://docs.godotengine.org/en/stab
 
 <img src="images/pausebutton.png" height="300">
 
+Set the Button text to "Play".
+
+<img src="images/playbutton.png" height="300">
+
+
 By default, it will inherit the pause mode of the parent Pause node, which is to always run whether or not the scene is paused.
 
 <img src="images/buttonpausemode.png" height="300">
