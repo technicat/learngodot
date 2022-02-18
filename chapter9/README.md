@@ -10,6 +10,8 @@ Let's start with adding an Unpause [button](https://docs.godotengine.org/en/stab
 
 By default, it will inherit the pause mode of the parent Pause node.
 
+Set the [size and anchors](https://docs.godotengine.org/en/stable/tutorials/ui/size_and_anchors.html) so that the Button is centered in the screen (no matter what resolution the screen is).
+
 ### Showing the Button
 
 We add one more line to our pause script, using [get_node](https://docs.godotengine.org/en/stable/classes/class_node.html) to search for a child node named "Button" and making it visible if (and only if) the scene is paused.
