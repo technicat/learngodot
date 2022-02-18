@@ -33,6 +33,8 @@ func _input(event):
 		find_node("Button").visible = get_tree().paused
 ```
 
+<img src="images/buttonanchor.png" height="300">
+
 ### Scripting the Button
 
 The Button doesn't do anything, yet, so we attach a new script to it, specifying that when it's pressed, the scene is unpaused, and the Button is set to invisible.
