@@ -41,7 +41,7 @@ margin_top = -10.0
 margin_right = -35.0
 margin_bottom = -10.0
 shortcut_in_tooltip = false
-text = "Unpause"
+text = "Play"
 script = ExtResource( 4 )
 __meta__ = {
 "_edit_use_anchors_": false
