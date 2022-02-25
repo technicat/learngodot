@@ -4,15 +4,15 @@ I'm learning [Godot](http://godotengine.org/) by reimplementing the code samples
 
 *** in-progress ***
 
-1. [Getting Godot](chapter1/README.md)
-2. [Making a Scene](chapter2/README.md)
-3. [Creating a Cube](chapter3/README.md)
-4. [Lighting the Cube](chapter4/README.md)
-5. [Chapter 5: Texturing the Cube](chapter5/README.md)
-6. [Chapter 6: Spinning the Cube](chapter6/README.md)
-7. [Chapter 7: Replicating the Cube](chapter7/README.md)
-8. [Chapter 8: Pausing the Game](chapter8/README.md)
-9. [Chapter 9: Adding a GUI](chapter9/README.md)
-10. [Chapter 10: Adding a Menu](chapter10/README.md)
+- [Getting Godot](chapter01/README.md)
+- [Making a Scene](chapter02/README.md)
+- [Creating a Cube](chapter03/README.md)
+- [Lighting the Cube](chapter04/README.md)
+- [Texturing the Cube](chapter05/README.md)
+- [Spinning the Cube](chapter06/README.md)
+- [Replicating the Cube](chapter07/README.md)
+- [Pausing the Game](chapter08/README.md)
+- [Adding a GUI](chapter09/README.md)
+- [Adding a Menu](chapter10/README.md)
 
 
