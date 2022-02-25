@@ -77,5 +77,5 @@ And when you hit Play, the default environment (blue skies!) is now rendere.
 
 ## Next Chapter
 
-[Creating a Cube](../chapter3/README.md)
+[Creating a Cube](../chapter03/README.md)
 

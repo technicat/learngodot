@@ -52,6 +52,9 @@ func _pressed():
 	visible = false
 ```
 
+## Next Chapter
+
+[Adding a Menu](../chapter10/README.md)
 
 
 

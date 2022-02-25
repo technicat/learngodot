@@ -27,5 +27,5 @@ And then when you hit Play, the cube should look yellow.
 
 ### Next Chapter
 
-[Texturing the Cube](../chapter5/README.md)
+[Texturing the Cube](../chapter05/README.md)
 

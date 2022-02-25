@@ -52,4 +52,4 @@ And now when we select the Camera node, the Inspector shows the new editable val
 
 ## Next Chapter
 
-[Reusing the Cube](../chapter7/README.md)
+[Reusing the Cube](../chapter07/README.md)

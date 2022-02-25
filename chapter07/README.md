@@ -29,4 +29,9 @@ In the new Cube scene, make the Cube node the scene root and delete all the othe
 
 <img src="images/playcubes.png">
 
+## Next Chapter
+
+[Pausing the Game](../chapter08/README.md)
+
+
 

@@ -29,4 +29,4 @@ And then Edit the new material.
 
 ## Next Chapter
 
-[Spinning the Cube](../chapter6/README.md)
+[Spinning the Cube](../chapter06/README.md)

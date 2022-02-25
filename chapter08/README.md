@@ -61,3 +61,8 @@ Now that the pause script is attached to a node that's separate and not above th
 <img src="images/pausemode.png" height="300">
 
 Now when we hit Play and then hit the ESC key repeatedly, it will pause and unpause the game.
+
+## Next Chapter
+
+[Adding a GUI](../chapter09/README.md)
+

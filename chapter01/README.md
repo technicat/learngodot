@@ -55,7 +55,7 @@ And yet another [Github repo](https://github.com/godotengine/godot-proposals) is
 
 ## Next Chapter
 
-[Making a Scene](../chapter2/README.md)
+[Making a Scene](../chapter02/README.md)
 
 
 
