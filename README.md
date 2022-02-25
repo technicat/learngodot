@@ -14,5 +14,3 @@ I'm learning [Godot](http://godotengine.org/) by reimplementing the code samples
 - [Pausing the Game](chapter08/README.md)
 - [Adding a GUI](chapter09/README.md)
 - [Adding a Menu](chapter10/README.md)
-
-
