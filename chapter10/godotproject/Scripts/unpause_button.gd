@@ -2,4 +2,4 @@ extends Button
 
 func _pressed():
 	get_tree().paused = false
-	visible = false
+	get_parent().visible = false
