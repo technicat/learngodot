@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://cube.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Scripts/look_at.gd" type="Script" id=2]
-[ext_resource path="res://Scripts/pause.gd" type="Script" id=3]
-[ext_resource path="res://Scripts/unpause_button.gd" type="Script" id=4]
+[ext_resource path="res://Scripts/transform/look_at.gd" type="Script" id=2]
+[ext_resource path="res://Scripts/menu/pause.gd" type="Script" id=3]
+[ext_resource path="res://Scripts/menu/unpause_button.gd" type="Script" id=4]
+[ext_resource path="res://Scripts/menu/quit_button.gd" type="Script" id=5]
 
 [node name="Scene" type="Spatial"]
 
@@ -41,12 +42,22 @@ margin_top = -20.0
 margin_right = 20.0
 margin_bottom = 20.0
 
-[node name="Button" type="Button" parent="Pause/Menu"]
+[node name="Play" type="Button" parent="Pause/Menu"]
 margin_right = 40.0
 margin_bottom = 20.0
 shortcut_in_tooltip = false
 text = "Play"
 script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Quit" type="Button" parent="Pause/Menu"]
+margin_right = 40.0
+margin_bottom = 20.0
+shortcut_in_tooltip = false
+text = "Quit"
+script = ExtResource( 5 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
