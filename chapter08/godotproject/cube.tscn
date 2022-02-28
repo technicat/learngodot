@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://Scripts/rotate_y.gd" type="Script" id=1]
+[ext_resource path="res://Scripts/transform/rotate_y.gd" type="Script" id=1]
 [ext_resource path="res://cat.jpg" type="Texture" id=3]
 
 [sub_resource type="CubeMesh" id=1]
