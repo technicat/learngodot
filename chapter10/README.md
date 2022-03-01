@@ -36,6 +36,8 @@ func _pressed():
 
 There's not much point in creating a container to hold just one Button, so let's add a Quit button. Create another child Button under the Menu, name it Quit, and ensure it follows the Play button, so that the Buttons appear in that sequence.
 
+<img src="images/menubttons.png" height="300">
+
 ### Scripting the Quit Button
 
 The Quit Button doesn't do anything, yet, so we attach a new script to it, specifying that when it's pressed, quit the game.
@@ -46,6 +48,8 @@ extends Button
 func _pressed():
 	get_tree().quit()
 ```
+
+<img src="images/playbuttons.png" height="300">
 
 ## Next Chapter
 
