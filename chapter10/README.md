@@ -2,7 +2,9 @@
 
 ## Adding a Container
 
-Add a Container under the Pause node, name it Menu, and like we did with the pasue Button, set its initial Visibility to false.
+Add a Container under the Pause node, name it Menu, and like we did with the pause Button, set its initial Visibility to false.
+
+<img src="images/vbox.png" height="300">
 
 ### Updating the Pause Script
 
