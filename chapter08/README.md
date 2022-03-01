@@ -1,5 +1,11 @@
 # Pausing the Game
 
+## Getting Organized
+
+We'll be adding a new script to pause and unpause the game, so let's reorg the scripts folder by adding a folder named *transform* for our existing scripts (since their functionality is to adjust node transforms) adn a folder named *pause* for any pause-related scripts.
+
+<img src="images/scriptfolders.png" height="300">
+
 ## Input
 
 ### The Input Map
