@@ -4,7 +4,7 @@
 
 Add a Container under the Pause node, name it Menu, and like we did with the pause Button, set its initial Visibility to false.
 
-<img src="images/vbox.png" height="300">
+<img src="images/createvbox.png" height="300">
 
 ### Updating the Pause Script
 
@@ -38,7 +38,7 @@ func _pressed():
 
 There's not much point in creating a container to hold just one Button, so let's add a Quit button. Create another child Button under the Menu, name it Quit, and ensure it follows the Play button, so that the Buttons appear in that sequence.
 
-<img src="images/menubttons.png" height="300">
+<img src="images/menubuttons.png" height="300">
 
 ### Scripting the Quit Button
 
