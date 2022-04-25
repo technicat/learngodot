@@ -1,5 +1,7 @@
 # my stuff
 publish.sh
+html/
+*.dmg
 
 # Godot-specific ignores
 .import/
