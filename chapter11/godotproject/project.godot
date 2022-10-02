@@ -12,7 +12,6 @@ config_version=4
 
 config/name="godotproject"
 run/main_scene="res://scene.tscn"
-config/icon="res://icon.png"
 
 [physics]
 
