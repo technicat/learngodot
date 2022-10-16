@@ -52,10 +52,10 @@ and the other runs once per frame. You can edit the script within the Godot edit
 
 <img src="images/cameraattachscriptcode.png" height="300">
 
-We're going to call the look_at function (defined in the [Node3D](https://docs.godotengine.org/en/latest/tutorials/3d/introduction_to_3d.html#node3d-node) class) in the ready callback so that the camera points at the origin (coordinate 0,0,0),
+We're going to call the look_at function (defined in the [Node3D class](https://docs.godotengine.org/en/latest/classes/class_node3d.html#class-node3d)) in the ready callback so that the camera points at the origin (coordinate 0,0,0),
 and the second argument is an axis vector making sure the Camera is oriented vertically.
 
-Since we're ony using a [Node3D](https://docs.godotengine.org/en/latest/tutorials/3d/introduction_to_3d.html#node3d-node) function we can keep this script general and more reusable by extending [Node3D](https://docs.godotengine.org/en/latest/tutorials/3d/introduction_to_3d.html#node3d-node) instead of Camera.
+Since we're ony using a [Node3D](https://docs.godotengine.org/en/latest/classes/class_node3d.html#class-node3d) function we can keep this script general and more reusable by extending [Node3D](https://docs.godotengine.org/en/latest/classes/class_node3d.html#class-node3d) instead of [Camera3D](https://docs.godotengine.org/en/latest/classes/class_camera3d.html).
 And we can leave out the process callback for now, no need to execute a function every frame that does nothing.
 
 Leave two empty lines before the *_ready* function,
