@@ -11,9 +11,9 @@ https://docs.godotengine.org/en/stable/getting_started/workflow/project_setup/pr
 
 ## Script the Cube
 
-In the previous chapter, we attached a new script to the Camera's parent [Node3D](https://docs.godotengine.org/en/latest/tutorials/3d/introduction_to_3d.html#node3d-node) and then placed a call to Spatial.look_at.
+In the previous chapter, we attached a new script to the Camera's parent [Node3D](https://docs.godotengine.org/en/latest/classes/class_node3d.html#class-node3d) and then placed a call to [Node3D.look_at](https://docs.godotengine.org/en/latest/classes/class_node3d.html#class-node3d-method-look-at).
 
-Similarly, here we'll attach a new script to the Cube and add a call to Spatial.rotate_y to rotate the Cube around it's y-axis (or more precisely, the Spatial node's y-axis).
+Similarly, here we'll attach a new script to the Cube and add a call to [Node3D.rotate_y](https://docs.godotengine.org/en/latest/classes/class_node3d.html#class-node3d-method-rotate-y) to rotate the Cube around it's y-axis (or more precisely, the [Node3D](https://docs.godotengine.org/en/latest/classes/class_node3d.html#class-node3d) y-axis).
 
 ```gdscript
 extends Node3D
