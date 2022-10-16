@@ -52,7 +52,7 @@ To get around this, let's move the pause script to a new node.
 
 <img src="images/pausenode.png" height="300">
 
-The new node doesn't have to be [Node3D](https://docs.godotengine.org/en/latest/tutorials/3d/introduction_to_3d.html#node3d-node), since we're not doing any 3D with it, so just choosing basic Node is sufficient. A general good practice is to pick the most basic class you need. And that allows us to make our script a bit more general by extending Node instead of [Node3D](https://docs.godotengine.org/en/latest/tutorials/3d/introduction_to_3d.html#node3d-node), so we can attach it to any Node or subclass of Node.
+The new node doesn't have to be [Node3D](https://docs.godotengine.org/en/latest/classes/class_node3d.html#class-node3d), since we're not doing any 3D with it, so just choosing basic Node is sufficient. A general good practice is to pick the most basic class you need. And that allows us to make our script a bit more general by extending [Node](https://docs.godotengine.org/en/latest/classes/class_node.html#class-node) instead of [Node3D](https://docs.godotengine.org/en/latest/classes/class_node3d.html#class-node3d), so we can attach it to any Node or subclass of Node.
 
 ```gdscript
 extends Node
