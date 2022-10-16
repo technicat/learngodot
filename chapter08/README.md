@@ -19,7 +19,7 @@ Instead of detecting, say, specific keyboard keys, we can use the generic names 
 We can check for input by creating a script that implement the **_input** callback. Here we create a new script, name it pause.gd, attach it to the root scene node, and in the _input callback check if the action named *ui_cancel* in the input map is activated.
 
 ```gdscript
-extends Spatial
+extends Node3D
 
 func _input(event):
 	if event.is_action_pressed("ui_cancel"):

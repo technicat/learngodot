@@ -16,7 +16,7 @@ In the previous chapter, we attached a new script to the Camera's parent [Node3D
 Similarly, here we'll attach a new script to the Cube and add a call to Spatial.rotate_y to rotate the Cube around it's y-axis (or more precisely, the Spatial node's y-axis).
 
 ```gdscript
-extends Spatial
+extends Node3D
 
 export var speed = 1.0;
 
@@ -37,7 +37,7 @@ Hit the play button and we see the cube spin. Try changing the speed to differen
 Now that we know how to export variables in a script, let's update our Camera look_at script to be more reusable.
 
 ```gdscript
-extends Spatial
+extends Node3D
 
 export var target = Vector3(0,0,0)
 export var up = Vector3(0,0,-1)
