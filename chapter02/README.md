@@ -12,9 +12,9 @@ scene is made up of a [hierarchy of nodes](https://docs.godotengine.org/en/stabl
 In computer graphics, such a hierarchy is called a scene graph, but more specifically it's a tree, i.e. there's a single starting root node and there are no circularities in the graph.
 In fact, Godot callas it a [SceneTree](https://docs.godotengine.org/en/stable/getting_started/step_by_step/scene_tree.html).
 
-### Spatial node
+### Node3D
 
-In Godot, the root node determines the type of scene, so the first thing that the editor asks you to do with an empty project is select the appropriate node/scene to start. When you select 3D Scene, the editor will create a [Spatial node](https://docs.godotengine.org/en/stable/tutorials/3d/introduction_to_3d.html#spatial-node) as the root node.
+In Godot, the root node determines the type of scene, so the first thing that the editor asks you to do with an empty project is select the appropriate node/scene to start. When you select 3D Scene, the editor will create a [Node3D](https://docs.godotengine.org/en/latest/tutorials/3d/introduction_to_3d.html#node3d-node) as the root node.
 
 <img src="images/spatialscene.png" height="100">
 
