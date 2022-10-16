@@ -4,6 +4,8 @@ I'm learning [Godot](http://godotengine.org/) by reimplementing the code samples
 
 *** in-progress ***
 
+(upgrading to Godot 4 beta...)
+
 - [Getting Godot](chapter01/README.md)
 - [Making a Scene](chapter02/README.md)
 - [Creating a Cube](chapter03/README.md)
