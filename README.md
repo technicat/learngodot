@@ -1,6 +1,6 @@
 # Learn Godot
 
-I'm learning [Godot](http://godotengine.org/) by reimplementing the code samples from my (very obsolete) book [Learn Unity 4 for iOS Game Development](https://github.com/technicat/learnunity).
+I'm learning [Godot](http://godotengine.org/) by reimplementing the code samples from my (obsolete) book [Learn Unity 4 for iOS Game Development](https://github.com/technicat/learnunity).
 
 *** in-progress ***
 
