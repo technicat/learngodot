@@ -1,10 +1,10 @@
 # Learn Godot
 
-I'm learning [Godot](http://godotengine.org/) by reimplementing the code samples from my (very obsolete) book [Learn Unity 4 for iOS Game Developmen](https://github.com/technicat/learnunity).
+I'm learning [Godot](http://godotengine.org/) by reimplementing the code samples from my (very obsolete) book [Learn Unity 4 for iOS Game Development](https://github.com/technicat/learnunity).
 
 *** in-progress ***
 
-(upgrading to Godot 4 beta...)
+(upgrading to [Godot 4 beta](https://godotengine.org/article/dev-snapshot-godot-4-0-beta-1)...)
 
 - [Getting Godot](chapter01/README.md)
 - [Making a Scene](chapter02/README.md)
