@@ -16,7 +16,7 @@ In fact, Godot callas it a [SceneTree](https://docs.godotengine.org/en/stable/ge
 
 In Godot, the root node determines the type of scene, so the first thing that the editor asks you to do with an empty project is select the appropriate node/scene to start. When you select 3D Scene, the editor will create a [Node3D](https://docs.godotengine.org/en/latest/tutorials/3d/introduction_to_3d.html#node3d-node) as the root node.
 
-<img src="images/spatialscene.png" height="100">
+<img src="images/3dscene.png" height="100">
 
 The [Node3D](https://docs.godotengine.org/en/latest/tutorials/3d/introduction_to_3d.html#node3d-node) is the most basic 3D node, conatining a [transform](https://docs.godotengine.org/en/stable/tutorials/3d/using_transforms.html), which encapsulates the node's 3D translation (position), rotation, and scale, relative to any parent nodes.
 
