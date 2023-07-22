@@ -11,10 +11,6 @@ Or you can build Godot from the source code on
 
 There is also a (limited) [web version](https://editor.godotengine.org/releases/latest/).
 
-*** in progress ***
-
-Use the [beta download page](https://downloads.tuxfamily.org/godotengine/4.0/)
-
 ## Launch Godot
 
 When you launch Godot (double-click the app, or run it from the [command line](https://docs.godotengine.org/en/stable/getting_started/editor/command_line_tutorial.html), the first window presented is the Project Manager,
