@@ -45,16 +45,12 @@ offset_bottom = 20.0
 
 [node name="Play" type="Button" parent="Pause/Menu"]
 layout_mode = 2
-offset_right = 40.0
-offset_bottom = 20.0
 shortcut_in_tooltip = false
 text = "Play"
 script = ExtResource("4")
 
 [node name="Quit" type="Button" parent="Pause/Menu"]
 layout_mode = 2
-offset_right = 40.0
-offset_bottom = 20.0
 shortcut_in_tooltip = false
 text = "Quit"
 script = ExtResource("5")
